@@ -1,0 +1,8 @@
+datasets:
+-   name: sw00089816002um2
+    type: SpectrumDatasetOnOff
+    filename: pha_obssw00089816002um2.fits
+metadata:
+    creator: Gammapy 1.3.dev726+g6c6d15956
+    date: '2024-08-23T09:24:45.134941'
+    origin: null

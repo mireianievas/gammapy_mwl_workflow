@@ -1,0 +1,8 @@
+datasets:
+-   name: Fermi-LAT
+    type: MapDataset
+    filename: Fermi-LAT.fits.gz
+metadata:
+    creator: Gammapy 1.3.dev726+g6c6d15956
+    date: '2024-08-23T10:49:00.702721'
+    origin: null

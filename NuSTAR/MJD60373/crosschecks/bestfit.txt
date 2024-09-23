@@ -1,0 +1,40 @@
+## FROM XSPEC
+
+Model src:TBabs<1>*cpflux<2>*powerlaw<3> Source No.: 1   Active/On
+Model Model Component  Parameter  Unit     Value
+ par  comp
+                           Data group: 1
+   1    1   TBabs      nH         10^22    1.25000E-02  frozen
+   2    2   cpflux     Emin       keV      3.00000      frozen
+   3    2   cpflux     Emax       keV      70.0000      frozen
+   4    2   cpflux     Flux                6.29640E-04  +/-  1.16802E-05  
+   5    3   powerlaw   PhoIndex            1.63346      +/-  2.95757E-02  
+   6    3   powerlaw   norm                1.00000      frozen
+
+
+# background normalizations
+   5    2   constant   factor              0.894723     = apbgd_A:p4
+   5    2   constant   factor              1.09793      = apbgd_B:p4
+
+covariance matrix
+
+
+C-Statistic  |beta|/N    Lvl apbgd_A:4:fac apbgd_B:4:fac    src:4:Flux src:5:PhoInde
+3730.13      0.000275243   2      0.894723       1.09793   0.000629640       1.63346
+==================================================
+ Variances and Principal Axes
+         apbgd_A:4apbgd_B:4    src:4    src:5  
+ 1.0738E-10|  0.0000   0.0000   1.0000   0.0001  
+ 8.1605E-04| -0.0668  -0.0626  -0.0001   0.9958  
+ 6.4734E-03|  0.9014  -0.4317  -0.0000   0.0334  
+ 8.0217E-03|  0.4278   0.8999  -0.0000   0.0852  
+--------------------------------------------------
+
+================================================
+  Covariance Matrix
+        1           2           3           4   
+   6.731e-03   5.723e-04  -2.440e-07   4.330e-04
+   5.723e-04   7.705e-03  -2.882e-07   4.712e-04
+  -2.440e-07  -2.882e-07   1.364e-10  -1.254e-07
+   4.330e-04   4.712e-04  -1.254e-07   8.747e-04
+------------------------------------------------

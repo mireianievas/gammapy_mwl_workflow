@@ -1,0 +1,11 @@
+datasets:
+-   name: NuSTAR_A
+    type: SpectrumDatasetOnOff
+    filename: pha_obsNuSTAR_A.fits
+-   name: NuSTAR_B
+    type: SpectrumDatasetOnOff
+    filename: pha_obsNuSTAR_B.fits
+metadata:
+    creator: Gammapy 1.3.dev726+g6c6d15956
+    date: '2024-08-23T09:24:17.344158'
+    origin: null

@@ -1,0 +1,23 @@
+datasets:
+-   name: sw00036384074uvv
+    type: SpectrumDatasetOnOff
+    filename: pha_obssw00036384074uvv.fits
+-   name: sw00036384074uw1
+    type: SpectrumDatasetOnOff
+    filename: pha_obssw00036384074uw1.fits
+-   name: sw00036384074um2
+    type: SpectrumDatasetOnOff
+    filename: pha_obssw00036384074um2.fits
+-   name: sw00036384074uw2
+    type: SpectrumDatasetOnOff
+    filename: pha_obssw00036384074uw2.fits
+-   name: sw00036384074uuu
+    type: SpectrumDatasetOnOff
+    filename: pha_obssw00036384074uuu.fits
+-   name: sw00036384074ubb
+    type: SpectrumDatasetOnOff
+    filename: pha_obssw00036384074ubb.fits
+metadata:
+    creator: Gammapy 1.3.dev726+g6c6d15956
+    date: '2024-09-10T17:45:32.680812'
+    origin: null

@@ -1,0 +1,412 @@
+components:
+-   name: 4FGL J1257.8+3228
+    type: SkyModel
+    spectral:
+        type: LogParabolaSpectralModel
+        parameters:
+        -   name: amplitude
+            value: 1.9653164406612555e-11
+            unit: MeV-1 s-1 cm-2
+            error: 2.0768265371122356e-11
+            min: 3.4278404767440484e-15
+            max: 3.4278404767440485e-09
+            interp: log
+            scale_method: scale10
+        -   name: reference
+            value: 753.1380615234375
+            unit: MeV
+            min: 753.1380615234375
+            max: 753.1380615234375
+            interp: lin
+            scale_method: scale10
+        -   name: alpha
+            value: 5.996531039099467
+            error: 0.4260828484650821
+            min: 0.0
+            max: 6.0
+            frozen: true
+            interp: lin
+            scale_method: scale10
+        -   name: beta
+            value: 2.948270902689988
+            error: 1.3090614973326469
+            min: 0.0
+            max: 3.0
+            frozen: true
+            interp: lin
+            scale_method: scale10
+    spatial:
+        type: PointSpatialModel
+        frame: icrs
+        parameters:
+        -   name: lon_0
+            value: 194.47279357910156
+            unit: deg
+            min: 194.47279357910156
+            max: 194.47279357910156
+            frozen: true
+            interp: lin
+            scale_method: scale10
+        -   name: lat_0
+            value: 32.47209930419922
+            unit: deg
+            min: 32.47209930419922
+            max: 32.47209930419922
+            frozen: true
+            interp: lin
+            scale_method: scale10
+-   name: 4FGL J1308.5+3547
+    type: SkyModel
+    spectral:
+        type: LogParabolaSpectralModel
+        parameters:
+        -   name: amplitude
+            value: 5.66485582458772e-12
+            unit: MeV-1 s-1 cm-2
+            error: 6.4979302835947355e-12
+            min: 3.533047118753352e-15
+            max: 3.533047118753352e-09
+            interp: log
+            scale_method: scale10
+        -   name: reference
+            value: 703.0697021484375
+            unit: MeV
+            min: 703.0697021484375
+            max: 703.0697021484375
+            interp: lin
+            scale_method: scale10
+        -   name: alpha
+            value: 5.997743842792262
+            error: 0.07303582120840321
+            min: 0.0
+            max: 6.0
+            frozen: true
+            interp: lin
+            scale_method: scale10
+        -   name: beta
+            value: 1.3620440480505673
+            error: 0.6496470727144197
+            min: 0.0
+            max: 3.0
+            frozen: true
+            interp: lin
+            scale_method: scale10
+    spatial:
+        type: PointSpatialModel
+        frame: icrs
+        parameters:
+        -   name: lon_0
+            value: 197.12860107421875
+            unit: deg
+            min: 197.12860107421875
+            max: 197.12860107421875
+            frozen: true
+            interp: lin
+            scale_method: scale10
+        -   name: lat_0
+            value: 35.79180145263672
+            unit: deg
+            min: 35.79180145263672
+            max: 35.79180145263672
+            frozen: true
+            interp: lin
+            scale_method: scale10
+-   name: 4FGL J1323.0+2941
+    type: SkyModel
+    spectral:
+        type: LogParabolaSpectralModel
+        parameters:
+        -   name: amplitude
+            value: 7.717420418340119e-13
+            unit: MeV-1 s-1 cm-2
+            error: 1.0631982082784463e-12
+            min: 1.7887997940529976e-15
+            max: 1.7887997940529976e-09
+            interp: log
+            scale_method: scale10
+        -   name: reference
+            value: 952.6407470703125
+            unit: MeV
+            min: 952.6407470703125
+            max: 952.6407470703125
+            interp: lin
+            scale_method: scale10
+        -   name: alpha
+            value: 5.999746119083183
+            error: 0.055167270913535876
+            min: 0.0
+            max: 6.0
+            frozen: true
+            interp: lin
+            scale_method: scale10
+        -   name: beta
+            value: 1.1261607986842408
+            error: 0.6191667931560016
+            min: 0.0
+            max: 3.0
+            frozen: true
+            interp: lin
+            scale_method: scale10
+    spatial:
+        type: PointSpatialModel
+        frame: icrs
+        parameters:
+        -   name: lon_0
+            value: 200.7615966796875
+            unit: deg
+            min: 200.7615966796875
+            max: 200.7615966796875
+            frozen: true
+            interp: lin
+            scale_method: scale10
+        -   name: lat_0
+            value: 29.68709945678711
+            unit: deg
+            min: 29.68709945678711
+            max: 29.68709945678711
+            frozen: true
+            interp: lin
+            scale_method: scale10
+-   name: OP313
+    type: SkyModel
+    spectral:
+        type: PowerLawSpectralModel
+        parameters:
+        -   name: index
+            value: 2.054759124862246
+            error: 0.18188298244498574
+            min: -2.0
+            max: 8.0
+            interp: lin
+            scale_method: scale10
+        -   name: amplitude
+            value: 9.691943085891582e-11
+            unit: MeV-1 s-1 cm-2
+            error: 2.2653879589762617e-11
+            min: 1.0e-13
+            max: 1.0e-07
+            interp: log
+            scale_method: scale10
+        -   name: reference
+            value: 1.0
+            unit: GeV
+            interp: lin
+            scale_method: scale10
+    spatial:
+        type: PointSpatialModel
+        frame: icrs
+        parameters:
+        -   name: lon_0
+            value: 197.6324005126953
+            unit: deg
+            min: 197.6324005126953
+            max: 197.6324005126953
+            frozen: true
+            interp: lin
+            scale_method: scale10
+        -   name: lat_0
+            value: 32.354698181152344
+            unit: deg
+            min: 32.354698181152344
+            max: 32.354698181152344
+            frozen: true
+            interp: lin
+            scale_method: scale10
+-   name: diffuse-iem
+    type: SkyModel
+    spectral:
+        type: PowerLawNormSpectralModel
+        parameters:
+        -   name: norm
+            value: 0.985341431705816
+            error: 0.19772443129728706
+            min: 0.1
+            max: 10.0
+            interp: log
+            scale_method: scale10
+            prior:
+                type: GaussianPrior
+                parameters:
+                -   name: mu
+                    value: 1.0
+                    unit: ''
+                -   name: sigma
+                    value: 0.2
+                    unit: ''
+                weight: 1
+        -   name: tilt
+            value: 0.0
+            interp: lin
+            scale_method: scale10
+        -   name: reference
+            value: 1.0
+            unit: TeV
+            interp: lin
+            scale_method: scale10
+    spatial:
+        type: TemplateSpatialModel
+        frame: galactic
+        parameters:
+        -   name: lon_0
+            value: 85.75
+            unit: deg
+            interp: lin
+            scale_method: scale10
+        -   name: lat_0
+            value: 81.4375
+            unit: deg
+            interp: lin
+            scale_method: scale10
+        filename: /home/mnievas/Projects/gammapy_mwl_workflow/LAT/MJD60373//diffuse-iem.fits.gz
+        normalize: false
+        unit: 1 / (MeV s sr cm2)
+-   name: fermi-diffuse-iso
+    type: SkyModel
+    apply_irf:
+        psf: false
+        exposure: true
+        edisp: true
+    spectral:
+        type: CompoundSpectralModel
+        model1:
+            type: TemplateSpectralModel
+            parameters: []
+            energy:
+                data:
+                - 33.6803
+                - 42.4506
+                - 53.5047
+                - 67.4374
+                - 84.9981
+                - 107.132
+                - 135.029
+                - 170.19
+                - 214.508
+                - 270.365
+                - 340.769
+                - 429.505
+                - 541.348
+                - 682.315
+                - 859.99
+                - 1083.93
+                - 1366.19
+                - 1721.94
+                - 2170.34
+                - 2735.49
+                - 3447.81
+                - 4345.62
+                - 5477.23
+                - 6903.5
+                - 8701.17
+                - 10967.0
+                - 13822.7
+                - 17422.2
+                - 21958.9
+                - 27677.0
+                - 34884.1
+                - 43968.0
+                - 55417.2
+                - 69847.9
+                - 88036.3
+                - 110961.0
+                - 139855.0
+                - 176273.0
+                - 222175.0
+                - 280029.0
+                - 352949.0
+                - 444857.0
+                - 560698.0
+                - 706704.0
+                - 890729.0
+                - 1000000.0
+                - 2000000.0
+                - 3000000.0
+                unit: MeV
+            values:
+                data:
+                - 2.32525e-06
+                - 1.09838e-06
+                - 5.13734e-07
+                - 2.57927e-07
+                - 1.27947e-07
+                - 8.91246e-08
+                - 6.31876e-08
+                - 3.84425e-08
+                - 2.3909e-08
+                - 1.42007e-08
+                - 8.48518e-09
+                - 4.99786e-09
+                - 2.91823e-09
+                - 1.64592e-09
+                - 9.41412e-10
+                - 5.46782e-10
+                - 3.06894e-10
+                - 1.6644e-10
+                - 9.79733e-11
+                - 5.91365e-11
+                - 3.53088e-11
+                - 2.08954e-11
+                - 1.31596e-11
+                - 8.23908e-12
+                - 5.02812e-12
+                - 3.07558e-12
+                - 1.80878e-12
+                - 1.07649e-12
+                - 6.20941e-13
+                - 3.5924e-13
+                - 2.09189e-13
+                - 1.22628e-13
+                - 7.26588e-14
+                - 3.97499e-14
+                - 2.19209e-14
+                - 1.26457e-14
+                - 7.42499e-15
+                - 4.28599e-15
+                - 2.71055e-15
+                - 1.76181e-15
+                - 1.1394e-15
+                - 7.37556e-16
+                - 4.77353e-16
+                - 3.08956e-16
+                - 1.99964e-16
+                - 1.60871340212876e-16
+                - 4.370922878168378e-17
+                - 2.0395747470539186e-17
+                unit: 1 / (MeV s cm2)
+        model2:
+            type: PowerLawNormSpectralModel
+            parameters:
+            -   name: norm
+                value: 1.1471371271601711
+                error: 0.14411468420250484
+                min: 0.1
+                max: 10.0
+                interp: log
+                scale_method: scale10
+                prior:
+                    type: GaussianPrior
+                    parameters:
+                    -   name: mu
+                        value: 1.0
+                        unit: ''
+                    -   name: sigma
+                        value: 0.2
+                        unit: ''
+                    weight: 1
+            -   name: tilt
+                value: 0.0
+                interp: lin
+                scale_method: scale10
+            -   name: reference
+                value: 1.0
+                unit: TeV
+                interp: lin
+                scale_method: scale10
+        operator: mul
+    spatial:
+        type: ConstantSpatialModel
+        parameters: []
+metadata:
+    creator: Gammapy 1.3.dev726+g6c6d15956
+    date: '2024-08-23T08:58:33.945001'
+    origin: null
