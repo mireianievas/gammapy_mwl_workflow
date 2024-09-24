@@ -7,3 +7,5 @@ Repository containing multi-wavelength (MWL) data of the distant quasar OP 313 (
 * Helpers: Auxiliary functions to generate native multiplicative models for dust extinction (out of xspec's redden), neutral hydrogen (out of xspec's tbabs), EBL absorption, and utility functions for file handling and plotting.
 * Models: multiplicative models in tabular format for easy 2d interpolation.
 * Figures: collection of figures for the paper.
+
+Based on the original work from https://github.com/luca-giunti/gammapyXray
