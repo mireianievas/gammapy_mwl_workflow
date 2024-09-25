@@ -9,3 +9,5 @@ Repository containing multi-wavelength (MWL) data of the distant quasar OP 313 (
 * Figures: collection of figures for the paper.
 
 Based on the original work from https://github.com/luca-giunti/gammapyXray
+
+Zenodo: https://zenodo.org/records/13837637 
