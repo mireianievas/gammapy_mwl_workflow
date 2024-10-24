@@ -5,9 +5,9 @@ components:
         type: LogParabolaSpectralModel
         parameters:
         -   name: amplitude
-            value: 1.7974752311003046e-13
+            value: 2.4676848887237145e-13
             unit: MeV-1 s-1 cm-2
-            error: 2.5676345720990184e-13
+            error: 3.7105928874265553e-13
             min: 6.922692670843777e-16
             max: 6.922692670843777e-10
             interp: log
@@ -20,16 +20,16 @@ components:
             interp: lin
             scale_method: scale10
         -   name: alpha
-            value: 5.999991526733312
-            error: 0.012695868460121143
+            value: 5.977014265601105
+            error: 0.6490230392776893
             min: 0.0
             max: 6.0
             frozen: true
             interp: lin
             scale_method: scale10
         -   name: beta
-            value: 0.9358154280267466
-            error: 0.37613358215309023
+            value: 1.0231782678550263
+            error: 0.4168881985525902
             min: 0.0
             max: 3.0
             frozen: true
@@ -55,125 +55,15 @@ components:
             frozen: true
             interp: lin
             scale_method: scale10
--   name: 4FGL J1230.2+2517
-    type: SkyModel
-    spectral:
-        type: LogParabolaSpectralModel
-        parameters:
-        -   name: amplitude
-            value: 7.981590215144774e-12
-            unit: MeV-1 s-1 cm-2
-            min: 7.981590215144774e-15
-            max: 7.981590215144774e-09
-            frozen: true
-            interp: log
-            scale_method: scale10
-        -   name: reference
-            value: 806.53515625
-            unit: MeV
-            min: 806.53515625
-            max: 806.53515625
-            interp: lin
-            scale_method: scale10
-        -   name: alpha
-            value: 2.0227856636047363
-            min: 0.0
-            max: 6.0
-            frozen: true
-            interp: lin
-            scale_method: scale10
-        -   name: beta
-            value: 0.046244703233242035
-            min: 0.0
-            max: 3.0
-            frozen: true
-            interp: lin
-            scale_method: scale10
-    spatial:
-        type: PointSpatialModel
-        frame: icrs
-        parameters:
-        -   name: lon_0
-            value: 187.55990600585938
-            unit: deg
-            min: 187.55990600585938
-            max: 187.55990600585938
-            frozen: true
-            interp: lin
-            scale_method: scale10
-        -   name: lat_0
-            value: 25.29829978942871
-            unit: deg
-            min: 25.29829978942871
-            max: 25.29829978942871
-            frozen: true
-            interp: lin
-            scale_method: scale10
--   name: 4FGL J1231.7+2847
-    type: SkyModel
-    spectral:
-        type: LogParabolaSpectralModel
-        parameters:
-        -   name: amplitude
-            value: 1.0759203013811243e-11
-            unit: MeV-1 s-1 cm-2
-            error: 1.3004034648144281e-11
-            min: 7.8954188022575815e-16
-            max: 7.895418802257581e-10
-            interp: log
-            scale_method: scale10
-        -   name: reference
-            value: 1425.8414306640625
-            unit: MeV
-            min: 1425.8414306640625
-            max: 1425.8414306640625
-            interp: lin
-            scale_method: scale10
-        -   name: alpha
-            value: 3.2505190612841703
-            error: 2.331135737145942
-            min: 0.0
-            max: 6.0
-            frozen: true
-            interp: lin
-            scale_method: scale10
-        -   name: beta
-            value: 2.9999999085185367
-            error: 0.000801608852068626
-            min: 0.0
-            max: 3.0
-            frozen: true
-            interp: lin
-            scale_method: scale10
-    spatial:
-        type: PointSpatialModel
-        frame: icrs
-        parameters:
-        -   name: lon_0
-            value: 187.93490600585938
-            unit: deg
-            min: 187.93490600585938
-            max: 187.93490600585938
-            frozen: true
-            interp: lin
-            scale_method: scale10
-        -   name: lat_0
-            value: 28.79170036315918
-            unit: deg
-            min: 28.79170036315918
-            max: 28.79170036315918
-            frozen: true
-            interp: lin
-            scale_method: scale10
 -   name: 4FGL J1243.2+3627
     type: SkyModel
     spectral:
         type: LogParabolaSpectralModel
         parameters:
         -   name: amplitude
-            value: 7.75425130401393e-14
+            value: 8.007385362283959e-14
             unit: MeV-1 s-1 cm-2
-            error: 2.310033845935976e-13
+            error: 1.532719235246927e-13
             min: 7.526770005872319e-16
             max: 7.526770005872319e-10
             interp: log
@@ -186,16 +76,16 @@ components:
             interp: lin
             scale_method: scale10
         -   name: alpha
-            value: 5.998864163124341
-            error: 0.19011490340162013
+            value: 5.999999923426503
+            error: 0.0010279165983345599
             min: 0.0
             max: 6.0
             frozen: true
             interp: lin
             scale_method: scale10
         -   name: beta
-            value: 1.0218100087400328
-            error: 0.7083796744907032
+            value: 0.9633770415301443
+            error: 0.46219859777662187
             min: 0.0
             max: 3.0
             frozen: true
@@ -227,9 +117,9 @@ components:
         type: LogParabolaSpectralModel
         parameters:
         -   name: amplitude
-            value: 1.2747947613474346e-11
+            value: 1.2320513281411062e-11
             unit: MeV-1 s-1 cm-2
-            error: 6.6393522186979775e-12
+            error: 6.4367803223381475e-12
             min: 2.0516752088483443e-16
             max: 2.0516752088483442e-10
             interp: log
@@ -275,235 +165,22 @@ components:
             frozen: true
             interp: lin
             scale_method: scale10
--   name: 4FGL J1303.0+2434
-    type: SkyModel
-    spectral:
-        type: LogParabolaSpectralModel
-        parameters:
-        -   name: amplitude
-            value: 1.0066013478197096e-11
-            unit: MeV-1 s-1 cm-2
-            error: 9.232227203420362e-12
-            min: 2.634389885056154e-15
-            max: 2.6343898850561542e-09
-            interp: log
-            scale_method: scale10
-        -   name: reference
-            value: 872.7882080078125
-            unit: MeV
-            min: 872.7882080078125
-            max: 872.7882080078125
-            interp: lin
-            scale_method: scale10
-        -   name: alpha
-            value: 1.290389015175036e-07
-            error: 0.0008638759346495705
-            min: 0.0
-            max: 6.0
-            frozen: true
-            interp: lin
-            scale_method: scale10
-        -   name: beta
-            value: 0.9243865640645187
-            error: 0.6025302855774973
-            min: 0.0
-            max: 3.0
-            frozen: true
-            interp: lin
-            scale_method: scale10
-    spatial:
-        type: PointSpatialModel
-        frame: icrs
-        parameters:
-        -   name: lon_0
-            value: 195.75709533691406
-            unit: deg
-            min: 195.75709533691406
-            max: 195.75709533691406
-            frozen: true
-            interp: lin
-            scale_method: scale10
-        -   name: lat_0
-            value: 24.58209991455078
-            unit: deg
-            min: 24.58209991455078
-            max: 24.58209991455078
-            frozen: true
-            interp: lin
-            scale_method: scale10
--   name: 4FGL J1314.7+2348
-    type: SkyModel
-    spectral:
-        type: LogParabolaSpectralModel
-        parameters:
-        -   name: amplitude
-            value: 2.1750227909196024e-12
-            unit: MeV-1 s-1 cm-2
-            error: 2.2343883685209717e-12
-            min: 8.766056999211236e-16
-            max: 8.766056999211236e-10
-            interp: log
-            scale_method: scale10
-        -   name: reference
-            value: 1244.4478759765625
-            unit: MeV
-            min: 1244.4478759765625
-            max: 1244.4478759765625
-            interp: lin
-            scale_method: scale10
-        -   name: alpha
-            value: 5.999993333709911
-            error: 0.01125039413031496
-            min: 0.0
-            max: 6.0
-            frozen: true
-            interp: lin
-            scale_method: scale10
-        -   name: beta
-            value: 2.9999943971932517
-            error: 0.006254653955356418
-            min: 0.0
-            max: 3.0
-            frozen: true
-            interp: lin
-            scale_method: scale10
-    spatial:
-        type: PointSpatialModel
-        frame: icrs
-        parameters:
-        -   name: lon_0
-            value: 198.68789672851562
-            unit: deg
-            min: 198.68789672851562
-            max: 198.68789672851562
-            frozen: true
-            interp: lin
-            scale_method: scale10
-        -   name: lat_0
-            value: 23.812400817871094
-            unit: deg
-            min: 23.812400817871094
-            max: 23.812400817871094
-            frozen: true
-            interp: lin
-            scale_method: scale10
--   name: 4FGL J1317.6+3428
-    type: SkyModel
-    spectral:
-        type: PowerLawSpectralModel
-        parameters:
-        -   name: index
-            value: 2.5097763538360596
-            min: 0.0
-            max: 6.0
-            frozen: true
-            interp: lin
-            scale_method: scale10
-        -   name: amplitude
-            value: 1.8192621785148642e-12
-            unit: MeV-1 s-1 cm-2
-            error: 4.767779155069435e-12
-            min: 6.538560383233249e-16
-            max: 6.53856038323325e-10
-            interp: log
-            scale_method: scale10
-        -   name: reference
-            value: 893.3354492187499
-            unit: MeV
-            min: 893.33544921875
-            max: 893.33544921875
-            interp: lin
-            scale_method: scale10
-    spatial:
-        type: PointSpatialModel
-        frame: icrs
-        parameters:
-        -   name: lon_0
-            value: 199.4008026123047
-            unit: deg
-            min: 199.4008026123047
-            max: 199.4008026123047
-            frozen: true
-            interp: lin
-            scale_method: scale10
-        -   name: lat_0
-            value: 34.46760177612305
-            unit: deg
-            min: 34.46760177612305
-            max: 34.46760177612305
-            frozen: true
-            interp: lin
-            scale_method: scale10
--   name: 4FGL J1321.1+2216
-    type: SkyModel
-    spectral:
-        type: LogParabolaSpectralModel
-        parameters:
-        -   name: amplitude
-            value: 5.6314497336174e-12
-            unit: MeV-1 s-1 cm-2
-            min: 5.6314497336173995e-15
-            max: 5.6314497336174e-09
-            frozen: true
-            interp: log
-            scale_method: scale10
-        -   name: reference
-            value: 710.2430419921875
-            unit: MeV
-            min: 710.2430419921875
-            max: 710.2430419921875
-            interp: lin
-            scale_method: scale10
-        -   name: alpha
-            value: 2.277980327606201
-            min: 0.0
-            max: 6.0
-            frozen: true
-            interp: lin
-            scale_method: scale10
-        -   name: beta
-            value: 0.07148285210132599
-            min: 0.0
-            max: 3.0
-            frozen: true
-            interp: lin
-            scale_method: scale10
-    spatial:
-        type: PointSpatialModel
-        frame: icrs
-        parameters:
-        -   name: lon_0
-            value: 200.2958068847656
-            unit: deg
-            min: 200.29580688476562
-            max: 200.29580688476562
-            frozen: true
-            interp: lin
-            scale_method: scale10
-        -   name: lat_0
-            value: 22.280799865722656
-            unit: deg
-            min: 22.280799865722656
-            max: 22.280799865722656
-            frozen: true
-            interp: lin
-            scale_method: scale10
 -   name: OP313
     type: SkyModel
     spectral:
         type: PowerLawSpectralModel
         parameters:
         -   name: index
-            value: 1.99208781519739
-            error: 0.12561481874674071
+            value: 1.9740080158802082
+            error: 0.1228287358644761
             min: -2.0
             max: 8.0
             interp: lin
             scale_method: scale10
         -   name: amplitude
-            value: 1.132422911182328e-10
+            value: 1.128312915725775e-10
             unit: MeV-1 s-1 cm-2
-            error: 1.847398348878967e-11
+            error: 1.8298866245533933e-11
             min: 1.0e-13
             max: 1.0e-07
             interp: log
@@ -539,8 +216,8 @@ components:
         type: PowerLawNormSpectralModel
         parameters:
         -   name: norm
-            value: 0.9759593447240251
-            error: 0.19816118982154257
+            value: 0.9699034663112233
+            error: 0.19842943434548915
             min: 0.1
             max: 10.0
             interp: log
@@ -574,7 +251,7 @@ components:
             interp: lin
             scale_method: scale10
         -   name: lat_0
-            value: 81.375
+            value: 81.4375
             unit: deg
             interp: lin
             scale_method: scale10
@@ -698,8 +375,8 @@ components:
             type: PowerLawNormSpectralModel
             parameters:
             -   name: norm
-                value: 1.3557742386569382
-                error: 0.13200755819800725
+                value: 1.363681986498034
+                error: 0.13198923068431706
                 min: 0.1
                 max: 10.0
                 interp: log
@@ -729,5 +406,5 @@ components:
         parameters: []
 metadata:
     creator: Gammapy 1.3.dev726+g6c6d15956
-    date: '2024-08-23T10:49:00.736346'
+    date: '2024-10-23T16:12:03.996647'
     origin: null

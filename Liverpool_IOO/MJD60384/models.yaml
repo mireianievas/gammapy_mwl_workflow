@@ -8,7 +8,7 @@ components:
             parameters:
             -   name: norm_0
                 value: 1.0
-                error: 0.024849173341345603
+                error: 0.024011884475602218
                 interp: lin
                 scale_method: scale10
                 prior:
@@ -18,12 +18,12 @@ components:
                         value: 1.0
                         unit: ''
                     -   name: sigma
-                        value: 0.024849173341345603
+                        value: 0.024011884475602218
                         unit: ''
                     weight: 1
             -   name: norm_1
                 value: 1.0
-                error: 0.013617664944423647
+                error: 0.013291838417983547
                 interp: lin
                 scale_method: scale10
                 prior:
@@ -33,12 +33,12 @@ components:
                         value: 1.0
                         unit: ''
                     -   name: sigma
-                        value: 0.013617664944423647
+                        value: 0.013291838417983547
                         unit: ''
                     weight: 1
             -   name: norm_2
                 value: 1.0
-                error: 0.013608736522689601
+                error: 0.013350272712314959
                 interp: lin
                 scale_method: scale10
                 prior:
@@ -48,12 +48,12 @@ components:
                         value: 1.0
                         unit: ''
                     -   name: sigma
-                        value: 0.013608736522689601
+                        value: 0.013350272712314959
                         unit: ''
                     weight: 1
             -   name: norm_3
                 value: 1.0
-                error: 0.030538608827243893
+                error: 0.030197673169697896
                 interp: lin
                 scale_method: scale10
                 prior:
@@ -63,12 +63,12 @@ components:
                         value: 1.0
                         unit: ''
                     -   name: sigma
-                        value: 0.030538608827243893
+                        value: 0.030197673169697896
                         unit: ''
                     weight: 1
             -   name: norm_4
                 value: 1.0
-                error: 0.11191207394379075
+                error: 0.11157396148459613
                 interp: lin
                 scale_method: scale10
                 prior:
@@ -78,7 +78,7 @@ components:
                         value: 1.0
                         unit: ''
                     -   name: sigma
-                        value: 0.11191207394379075
+                        value: 0.11157396148459613
                         unit: ''
                     weight: 1
             energy:
@@ -120,5 +120,5 @@ components:
         operator: mul
 metadata:
     creator: Gammapy 1.3.dev726+g6c6d15956
-    date: '2024-09-23T12:54:28.019590'
+    date: '2024-10-23T10:17:38.059312'
     origin: null

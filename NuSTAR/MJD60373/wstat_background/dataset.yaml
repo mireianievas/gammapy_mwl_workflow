@@ -7,5 +7,5 @@ datasets:
     filename: pha_obsNuSTAR_B.fits
 metadata:
     creator: Gammapy 1.3.dev726+g6c6d15956
-    date: '2024-08-23T09:24:17.344158'
+    date: '2024-10-23T08:33:28.215112'
     origin: null

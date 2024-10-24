@@ -1,24 +1,37 @@
 Current model list:
 
+!XSPEC12>fit
+540.264      0.000159344        1.68398    0.00102017
+540.264      0.000159365        1.95268    0.00131075
+==============================
+ Variances and Principal Axes
+                 2        3  
+ 5.9995E-03| -1.0000  -0.0003  
+ 3.0667E-09| -0.0003   1.0000  
+------------------------------
+
+========================
+  Covariance Matrix
+        1           2   
+   5.999e-03   1.761e-06
+   1.761e-06   3.583e-09
+------------------------
+
 ========================================================================
 Model TBabs<1>*powerlaw<2> Source No.: 1   Active/On
 Model Model Component  Parameter  Unit     Value
  par  comp
    1    1   TBabs      nH         10^22    1.25000E-02  frozen
-   2    2   powerlaw   PhoIndex            1.68129      +/-  8.10724E-02  
-   3    2   powerlaw   norm                9.34227E-04  +/-  5.65903E-05  
+   2    2   powerlaw   PhoIndex            1.68307      +/-  7.74562E-02  
+   3    2   powerlaw   norm                1.02014E-03  +/-  5.98610E-05  
 ________________________________________________________________________
 
-   Using energies from responses.
 
-Fit statistic  : C-Statistic                  558.30     using 959 bins.
+Fit statistic  : C-Statistic                  540.26     using 969 bins.
 
-Test statistic : Chi-Squared                519965.2     using 959 bins.
+Test statistic : Chi-Squared                299071.2     using 969 bins.
 
 ***Warning: Chi-square may not be valid due to bins with zero variance
             in spectrum number(s): 1 
 
- Null hypothesis probability of 0.0e+00 with 957 degrees of freedom
-
-Bayes is off
-
+ Null hypothesis probability of 0.0e+00 with 967 degrees of freedom

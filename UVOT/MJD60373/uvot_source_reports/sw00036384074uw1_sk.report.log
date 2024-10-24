@@ -640,3 +640,1504 @@ uvotsource: --- begin/end fthedit
 uvotsource: shell fthedit "infile=this.1157523.7.fits+0" "keyword=@head.1157523.6.txt" "chatter=1" "protect=YES" "history=NO" "longstring=NO"
 uvotsource: --- begin/end fthedit
 uvotsource: complete [time=1720885605, delta=260, elapsed=260]
+uvotsource: Got parameters:
+	image = /mnt/sdb1/Swift/OP313/reproc/00036384074/uvot/image/sw00036384074uw1_sk.img.gz+1
+	srcreg = /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/source.sw00036384074uw1_sk.reg
+	bkgreg = /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/background.sw00036384074uw1_sk.reg
+	sigma = 1
+	apercorr = CURVEOFGROWTH
+	output = ALL
+	expfile = NONE
+	cleanup = yes
+	clobber = yes
+	chatter = 5
+uvotsource: Checking quality of input files
+uvotsource: /mnt/sdb1/Swift/OP313/reproc/00036384074/uvot/image/sw00036384074uw1_sk.img.gz+1: OK
+uvotsource: Reading image keywords
+uvotsource: querying CALDB with
+	CODENAME => COINCIDENCE
+	MISSION => SWIFT
+	INSTRUMENT => UVOTA
+	DETECTOR => 1200
+	FILTER => UVW1
+	STARTDATE => 2024-03-03
+	STARTTIME => 22:03:24
+	STOPDATE => 2024-03-03
+	STOPTIME => 22:03:24
+	EXPRESSION => -
+uvotsource: selected COINCIDENCE https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/uvota/bcf/coinc/swucountcor20010101v103.fits[1]
+uvotsource: querying CALDB with
+	CODENAME => COLORTABLE
+	MISSION => SWIFT
+	INSTRUMENT => UVOTA
+	DETECTOR => 1200
+	FILTER => UVW1
+	STARTDATE => 2024-03-03
+	STARTTIME => 22:03:24
+	STOPDATE => 2024-03-03
+	STOPTIME => 22:03:24
+	EXPRESSION => -
+uvotsource: selected COLORTABLE https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/uvota/bcf/phot/swuphot20041120v108.fits[1]
+uvotsource: AB magnitude system
+uvotsource: 	B       : ZPT=18.98 ZPE=0.02 FCF=1.480E-16 FCE=5.6E-19 WAV=4321
+uvotsource: 	U       : ZPT=19.36 ZPE=0.02 FCF=1.663E-16 FCE=2.5E-18 WAV=3442
+uvotsource: 	V       : ZPT=17.88 ZPE=0.01 FCF=2.611E-16 FCE=8.7E-19 WAV=5410
+uvotsource: 	WHITE   : ZPT=21.09 ZPE=0.04 FCF=5.249E-17 FCE=7.0E-18 WAV=2753
+uvotsource: 	UVW1    : ZPT=18.95 ZPE=0.03 FCF=4.623E-16 FCE=1.4E-17 WAV=2486
+uvotsource: 	UVW2    : ZPT=19.11 ZPE=0.03 FCF=6.225E-16 FCE=1.3E-17 WAV=1991
+uvotsource: 	UVM2    : ZPT=18.54 ZPE=0.03 FCF=8.489E-16 FCE=5.3E-18 WAV=2221
+uvotsource: 	VGRISM  : ZPT=99.99 ZPE=0.0 FCF=0.0 FCE=0.0 WAV=0
+uvotsource: 	UGRISM  : ZPT=99.99 ZPE=0.0 FCF=0.0 FCE=0.0 WAV=0
+uvotsource: Vega magnitude system
+uvotsource: 	B       : ZPT=19.11 ZPE=0.02 FCF=1.471E-16 FCE=5.6E-19 WAV=4329
+uvotsource: 	U       : ZPT=18.34 ZPE=0.02 FCF=1.628E-16 FCE=2.5E-18 WAV=3501
+uvotsource: 	V       : ZPT=17.89 ZPE=0.01 FCF=2.613E-16 FCE=8.7E-19 WAV=5402
+uvotsource: 	WHITE   : ZPT=20.29 ZPE=0.04 FCF=3.677E-17 FCE=4.9E-18 WAV=3470
+uvotsource: 	UVW1    : ZPT=17.44 ZPE=0.03 FCF=4.209E-16 FCE=1.3E-17 WAV=2591
+uvotsource: 	UVW2    : ZPT=17.38 ZPE=0.03 FCF=5.976E-16 FCE=1.3E-17 WAV=2033
+uvotsource: 	UVM2    : ZPT=16.85 ZPE=0.03 FCF=8.446E-16 FCE=5.3E-18 WAV=2229
+uvotsource: 	VGRISM  : ZPT=99.99 ZPE=0.0 FCF=0.0 FCE=0.0 WAV=0
+uvotsource: 	UGRISM  : ZPT=99.99 ZPE=0.0 FCF=0.0 FCE=0.0 WAV=0
+uvotsource: querying CALDB with
+	CODENAME => REEF
+	MISSION => SWIFT
+	INSTRUMENT => UVOTA
+	DETECTOR => 1200
+	FILTER => -
+	STARTDATE => 2024-03-03
+	STARTTIME => 22:03:24
+	STOPDATE => 2024-03-03
+	STOPTIME => 22:03:24
+	EXPRESSION => -
+uvotsource: selected REEF https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/uvota/cpf/psf/swureef20041120v104.fits
+uvotsource: querying CALDB with
+	CODENAME => SKYFLAT
+	MISSION => SWIFT
+	INSTRUMENT => UVOTA
+	DETECTOR => 1200
+	FILTER => UVW1
+	STARTDATE => 2024-03-03
+	STARTTIME => 22:03:24
+	STOPDATE => 2024-03-03
+	STOPTIME => 22:03:24
+	EXPRESSION => -
+uvotsource: selected SKYFLAT https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/uvota/bcf/flats/swulssens20041120v003.fits[4]
+uvotsource: querying CALDB with
+	CODENAME => SENSCORR
+	MISSION => SWIFT
+	INSTRUMENT => UVOTA
+	DETECTOR => 1200
+	FILTER => -
+	STARTDATE => 2024-03-03
+	STARTTIME => 22:03:24
+	STOPDATE => 2024-03-03
+	STOPTIME => 22:03:24
+	EXPRESSION => -
+uvotsource: selected SENSCORR https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/uvota/bcf/senscorr/swusenscorr20041120v007.fits[1]
+uvotsource: /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/source.sw00036384074uw1_sk.reg: looks OK
+uvotsource: /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/background.sw00036384074uw1_sk.reg: looks OK
+uvotsource: verbose: not checking whether regions are in FOV
+not checking whether regions are in FOV
+uvotsource: verbose: no exposure map so only able to validate that regions are inside image
+uvotsource: shell uvotinteg "infile=/mnt/sdb1/Swift/OP313/reproc/00036384074/uvot/image/sw00036384074uw1_sk.img.gz+1[pix 1]" "regfile=/mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/source.sw00036384074uw1_sk.reg,/mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/background.sw00036384074uw1_sk.reg" "operation=FOV" "subpixels=8" "format=DEFAULT" "nullarea=no" "control=BASIC" "chatter=2" "nsigma=3" "sysname=DEFAULT"
+uvotsource: 
+--- begin uvotinteg
+monitor: fov: 1.000 [value]
+monitor: nulls: 0
+monitor: goods: 124665
+monitor: fov: 1.000 [value]
+monitor: nulls: 0
+monitor: goods: 31196144
+--- end uvotinteg
+uvotsource: verbose: /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/source.sw00036384074uw1_sk.reg containment is 1.000
+uvotsource: verbose: /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/background.sw00036384074uw1_sk.reg containment is 1.000
+uvotsource: shell uvotinteg "infile=/mnt/sdb1/Swift/OP313/reproc/00036384074/uvot/image/sw00036384074uw1_sk.img.gz+1" "regfile=tmpsrcreg.963313.2.reg,tmpbkgreg.963313.1.reg,std.963313.3.reg" "operation=AREA,SUM" "subpixels=8" "control=BASIC" "sysname=DEFAULT" "nsigma=3" "chatter=2" "format=DEFAULT" "nullarea=no"
+uvotsource: 
+--- begin uvotinteg
+monitor: area: 1947.891 [pixel]
+monitor: nulls: 0
+monitor: goods: 124665
+monitor: sum: 2683.249 [value]
+monitor: area: 487439.750 [pixel]
+monitor: nulls: 0
+monitor: goods: 31196144
+monitor: sum: 94625.622 [value]
+monitor: area: 78.078 [pixel]
+monitor: nulls: 0
+monitor: goods: 4997
+monitor: sum: 1947.026 [value]
+--- end uvotinteg
+source2 updateFrametimeParameters NFRAMES (HDR) = 13484.8769906057
+source2 updateFrametimeParameters NFRAMES (SRC) = 13484.8769906057
+source2 updateFrametimeParameters NFRAMES (BKG) = 13484.8769906057
+
+Source2 .. deriveRates  exposure src = 146.421491339395
+Source2 .. deriveRates  exposure bkg = 146.421491339395
+Source2 .. deriveRates  exposure hdr = 146.421491339395
+Source2 .. deriveRates  NFRAMES(SRC,BKG) = 13484.8769906057,13484.8769906057 !!! 
+bkg: counts=94625.622 area=487439.75 [pix] exp=146.421491339395 [s]
+src: counts=2683.249 area=1947.891 [pix] exp=146.421491339395 [s]
+b = (bkg_cnts=94625.622) / (bkg_exp_s=146.421491339395 * N_b=487439.75) = 0.001326 [count/s/pix]
+b_sig = (bkg_cnts_err = 307.437) / (bkg_exp_s=146.421491339395 * N_b=487439.75) = 0.000004 [count/s/pix]
+s = (src_cnts=2683.249) / (T_s=src_exp_s=146.421491339395) = 18.325513 [count/s]
+s_sig = (src_cnts_err=46.361) / T_s) = 0.316626 [count/s]
+r = s {18.325513} - b {0.001326} * N_s = 15.742970 [count/s]
+r_sig = sqrt(s_sig {0.316626}**2 + (b_sig {0.000004} * N_s)**2) = 0.316737 [count/s]
+nsigma = 49.70
+uvotsource: keyword CRVAL1 |197.543076667| => |197.543076667|
+uvotsource: keyword CRVAL2 |32.3575172141| => |32.3575172141|
+uvotsource: keyword CRPIX1 |712.5| => |712.5|
+uvotsource: keyword CRPIX2 |456.5| => |456.5|
+uvotsource: keyword CDELT1 |-0.00027888888381462| => |-0.00027888888381462|
+uvotsource: keyword CDELT2 |0.00027888888381462| => |0.00027888888381462|
+uvotsource: keyword CUNIT1 |deg| => |deg|
+uvotsource: keyword CUNIT2 |deg| => |deg|
+uvotsource: keyword CTYPE1 |RA---TAN| => |RA---TAN|
+uvotsource: keyword CTYPE2 |DEC--TAN| => |DEC--TAN|
+uvotsource: keyword CRVAL1D |0.| => |0.|
+uvotsource: keyword CRVAL2D |0.| => |0.|
+uvotsource: keyword CRPIX1D |606.250393508484| => |606.250393508484|
+uvotsource: keyword CRPIX2D |621.24743929127| => |621.24743929127|
+uvotsource: keyword CDELT1D |0.0181499958684615| => |0.0181499958684615|
+uvotsource: keyword CDELT2D |0.0181499958684615| => |0.0181499958684615|
+uvotsource: keyword CUNIT1D |mm| => |mm|
+uvotsource: keyword CUNIT2D |mm| => |mm|
+uvotsource: keyword CTYPE1D |DETX| => |DETX|
+uvotsource: keyword CTYPE2D |DETY| => |DETY|
+uvotsource: keyword PC1_1D |-0.959780917090781| => |-0.959780917090781|
+uvotsource: keyword PC1_2D |0.28075016740646| => |0.28075016740646|
+uvotsource: keyword PC2_1D |-0.280749716634484| => |-0.280749716634484|
+uvotsource: keyword PC2_2D |-0.959780980901105| => |-0.959780980901105|
+uvotsource: verbose: DET 1224.17,1570.12 => RAW 1158.35,1490.21
+uvotsource: Source
+            Position: RA = 13h 10m 28.68s, Dec = +32d 20m 43.5s (J2000)
+            Position: RA = 197.61950, Dec = 32.34543 (J2000)
+            Exposure: 146.42 s (source)
+            Exposure: 146.42 s (background)
+              Filter: UVW1
+        Significance: 49.7 sigma (stat)
+    Background-limit: 1.0 sigma (stat)
+uvotsource: UVOT uvw1 magnitude (Vega system)
+              Source: 14.22 +/- 0.02 (stat) +/- 0.03 (sys)
+          Background: 24.64 arcsec^-2
+    Background-limit: 19.39
+   Coincidence-limit: 11.01
+uvotsource: UVOT uvw1 magnitude (AB system)
+              Source: 15.73 +/- 0.02 (stat) +/- 0.03 (sys)
+          Background: 26.15 arcsec^-2
+    Background-limit: 20.90
+   Coincidence-limit: 12.52
+uvotsource: Flux density [erg/s/cm^2/A]
+              Source: 8.17 +/- 0.18 (stat) +/- 0.25 (sys) x 10^-15
+          Background: 5.54 +/- 0.02 (stat) +/- 0.17 (sys) x 10^-19 arcsec^-2
+    Background-limit: 6.99 x 10^-17
+   Coincidence-limit: 1.57 x 10^-13
+uvotsource: Corrected rate [count/s]
+              Source: 19.405 +/- 0.428 (stat)
+          Background: 0.0013 arcsec^-2
+    Background-limit: 0.166
+   Coincidence-limit: 372.234
+uvotsource: Raw rate [count/s]
+              Source: 15.743 +/- 0.317 (stat)
+          Background: 0.0013 arcsec^-2
+    Background-limit: 0.137
+   Coincidence-limit: 90.644
+uvotsource: Flux density [mJy at 1.157 x 10^15 Hz]
+              Source: 1.83 +/- 0.04 (stat) +/- 0.06 (sys) x 10^0
+          Background: 1.24 +/- 0.00 (stat) +/- 0.04 (sys) x 10^-4 arcsec^-2
+    Background-limit: 1.57 x 10^-2
+   Coincidence-limit: 3.51 x 10^1
+uvotsource: shell ftcreate "cdfile=his.963313.4.cdf" "datafile=his.963313.5.dat" "outfile=this.963313.7.fits" "nskip=0" "morehdr=0" "inull=0" "clobber=NO" "nrows=0" "tabtyp=BINARY" "chatter=1" "history=NO"
+uvotsource: --- begin/end ftcreate
+uvotsource: shell fthedit "infile=this.963313.7.fits+1" "keyword=@head.963313.6.txt" "history=NO" "chatter=1" "longstring=NO" "protect=YES"
+uvotsource: --- begin/end fthedit
+uvotsource: shell fthedit "infile=this.963313.7.fits+0" "keyword=@head.963313.6.txt" "longstring=NO" "protect=YES" "history=NO" "chatter=1"
+uvotsource: --- begin/end fthedit
+uvotsource: complete [time=1728324914, delta=194, elapsed=194]
+uvotsource: Got parameters:
+	image = /mnt/sdb1/Swift/OP313/reproc/00036384074/uvot/image/sw00036384074uw1_sk.img.gz+1
+	srcreg = /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/source.sw00036384074uw1_sk.reg
+	bkgreg = /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/background.sw00036384074uw1_sk.reg
+	sigma = 1
+	apercorr = CURVEOFGROWTH
+	output = ALL
+	expfile = NONE
+	cleanup = yes
+	clobber = yes
+	chatter = 5
+uvotsource: Checking quality of input files
+uvotsource: /mnt/sdb1/Swift/OP313/reproc/00036384074/uvot/image/sw00036384074uw1_sk.img.gz+1: OK
+uvotsource: Reading image keywords
+uvotsource: querying CALDB with
+	CODENAME => COINCIDENCE
+	MISSION => SWIFT
+	INSTRUMENT => UVOTA
+	DETECTOR => 1200
+	FILTER => UVW1
+	STARTDATE => 2024-03-03
+	STARTTIME => 22:03:24
+	STOPDATE => 2024-03-03
+	STOPTIME => 22:03:24
+	EXPRESSION => -
+uvotsource: selected COINCIDENCE https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/uvota/bcf/coinc/swucountcor20010101v103.fits[1]
+uvotsource: querying CALDB with
+	CODENAME => COLORTABLE
+	MISSION => SWIFT
+	INSTRUMENT => UVOTA
+	DETECTOR => 1200
+	FILTER => UVW1
+	STARTDATE => 2024-03-03
+	STARTTIME => 22:03:24
+	STOPDATE => 2024-03-03
+	STOPTIME => 22:03:24
+	EXPRESSION => -
+uvotsource: selected COLORTABLE https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/uvota/bcf/phot/swuphot20041120v108.fits[1]
+uvotsource: AB magnitude system
+uvotsource: 	B       : ZPT=18.98 ZPE=0.02 FCF=1.480E-16 FCE=5.6E-19 WAV=4321
+uvotsource: 	U       : ZPT=19.36 ZPE=0.02 FCF=1.663E-16 FCE=2.5E-18 WAV=3442
+uvotsource: 	V       : ZPT=17.88 ZPE=0.01 FCF=2.611E-16 FCE=8.7E-19 WAV=5410
+uvotsource: 	WHITE   : ZPT=21.09 ZPE=0.04 FCF=5.249E-17 FCE=7.0E-18 WAV=2753
+uvotsource: 	UVW1    : ZPT=18.95 ZPE=0.03 FCF=4.623E-16 FCE=1.4E-17 WAV=2486
+uvotsource: 	UVW2    : ZPT=19.11 ZPE=0.03 FCF=6.225E-16 FCE=1.3E-17 WAV=1991
+uvotsource: 	UVM2    : ZPT=18.54 ZPE=0.03 FCF=8.489E-16 FCE=5.3E-18 WAV=2221
+uvotsource: 	VGRISM  : ZPT=99.99 ZPE=0.0 FCF=0.0 FCE=0.0 WAV=0
+uvotsource: 	UGRISM  : ZPT=99.99 ZPE=0.0 FCF=0.0 FCE=0.0 WAV=0
+uvotsource: Vega magnitude system
+uvotsource: 	B       : ZPT=19.11 ZPE=0.02 FCF=1.471E-16 FCE=5.6E-19 WAV=4329
+uvotsource: 	U       : ZPT=18.34 ZPE=0.02 FCF=1.628E-16 FCE=2.5E-18 WAV=3501
+uvotsource: 	V       : ZPT=17.89 ZPE=0.01 FCF=2.613E-16 FCE=8.7E-19 WAV=5402
+uvotsource: 	WHITE   : ZPT=20.29 ZPE=0.04 FCF=3.677E-17 FCE=4.9E-18 WAV=3470
+uvotsource: 	UVW1    : ZPT=17.44 ZPE=0.03 FCF=4.209E-16 FCE=1.3E-17 WAV=2591
+uvotsource: 	UVW2    : ZPT=17.38 ZPE=0.03 FCF=5.976E-16 FCE=1.3E-17 WAV=2033
+uvotsource: 	UVM2    : ZPT=16.85 ZPE=0.03 FCF=8.446E-16 FCE=5.3E-18 WAV=2229
+uvotsource: 	VGRISM  : ZPT=99.99 ZPE=0.0 FCF=0.0 FCE=0.0 WAV=0
+uvotsource: 	UGRISM  : ZPT=99.99 ZPE=0.0 FCF=0.0 FCE=0.0 WAV=0
+uvotsource: querying CALDB with
+	CODENAME => REEF
+	MISSION => SWIFT
+	INSTRUMENT => UVOTA
+	DETECTOR => 1200
+	FILTER => -
+	STARTDATE => 2024-03-03
+	STARTTIME => 22:03:24
+	STOPDATE => 2024-03-03
+	STOPTIME => 22:03:24
+	EXPRESSION => -
+uvotsource: selected REEF https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/uvota/cpf/psf/swureef20041120v104.fits
+uvotsource: querying CALDB with
+	CODENAME => SKYFLAT
+	MISSION => SWIFT
+	INSTRUMENT => UVOTA
+	DETECTOR => 1200
+	FILTER => UVW1
+	STARTDATE => 2024-03-03
+	STARTTIME => 22:03:24
+	STOPDATE => 2024-03-03
+	STOPTIME => 22:03:24
+	EXPRESSION => -
+uvotsource: selected SKYFLAT https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/uvota/bcf/flats/swulssens20041120v003.fits[4]
+uvotsource: querying CALDB with
+	CODENAME => SENSCORR
+	MISSION => SWIFT
+	INSTRUMENT => UVOTA
+	DETECTOR => 1200
+	FILTER => -
+	STARTDATE => 2024-03-03
+	STARTTIME => 22:03:24
+	STOPDATE => 2024-03-03
+	STOPTIME => 22:03:24
+	EXPRESSION => -
+uvotsource: selected SENSCORR https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/uvota/bcf/senscorr/swusenscorr20041120v007.fits[1]
+uvotsource: /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/source.sw00036384074uw1_sk.reg: looks OK
+uvotsource: /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/background.sw00036384074uw1_sk.reg: looks OK
+uvotsource: verbose: not checking whether regions are in FOV
+not checking whether regions are in FOV
+uvotsource: verbose: no exposure map so only able to validate that regions are inside image
+uvotsource: shell uvotinteg "infile=/mnt/sdb1/Swift/OP313/reproc/00036384074/uvot/image/sw00036384074uw1_sk.img.gz+1[pix 1]" "regfile=/mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/source.sw00036384074uw1_sk.reg,/mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/background.sw00036384074uw1_sk.reg" "operation=FOV" "subpixels=8" "control=BASIC" "chatter=2" "nullarea=no" "nsigma=3" "format=DEFAULT" "sysname=DEFAULT"
+uvotsource: 
+--- begin uvotinteg
+monitor: fov: 1.000 [value]
+monitor: nulls: 0
+monitor: goods: 79795
+monitor: fov: 1.000 [value]
+monitor: nulls: 0
+monitor: goods: 7479858
+--- end uvotinteg
+uvotsource: verbose: /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/source.sw00036384074uw1_sk.reg containment is 1.000
+uvotsource: verbose: /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/background.sw00036384074uw1_sk.reg containment is 1.000
+uvotsource: shell uvotinteg "infile=/mnt/sdb1/Swift/OP313/reproc/00036384074/uvot/image/sw00036384074uw1_sk.img.gz+1" "regfile=tmpsrcreg.978950.2.reg,tmpbkgreg.978950.1.reg,std.978950.3.reg" "operation=AREA,SUM" "subpixels=8" "sysname=DEFAULT" "format=DEFAULT" "nsigma=3" "nullarea=no" "control=BASIC" "chatter=2"
+uvotsource: 
+--- begin uvotinteg
+monitor: area: 1246.797 [pixel]
+monitor: nulls: 0
+monitor: goods: 79795
+monitor: sum: 2514.788 [value]
+monitor: area: 116872.781 [pixel]
+monitor: nulls: 0
+monitor: goods: 7479858
+monitor: sum: 24942.070 [value]
+monitor: area: 77.906 [pixel]
+monitor: nulls: 0
+monitor: goods: 4986
+monitor: sum: 1911.087 [value]
+--- end uvotinteg
+source2 updateFrametimeParameters NFRAMES (HDR) = 13484.8769906057
+source2 updateFrametimeParameters NFRAMES (SRC) = 13484.8769906057
+source2 updateFrametimeParameters NFRAMES (BKG) = 13484.8769906057
+
+Source2 .. deriveRates  exposure src = 146.421491339395
+Source2 .. deriveRates  exposure bkg = 146.421491339395
+Source2 .. deriveRates  exposure hdr = 146.421491339395
+Source2 .. deriveRates  NFRAMES(SRC,BKG) = 13484.8769906057,13484.8769906057 !!! 
+bkg: counts=24942.070 area=116872.781 [pix] exp=146.421491339395 [s]
+src: counts=2514.788 area=1246.797 [pix] exp=146.421491339395 [s]
+b = (bkg_cnts=24942.070) / (bkg_exp_s=146.421491339395 * N_b=116872.781) = 0.001458 [count/s/pix]
+b_sig = (bkg_cnts_err = 157.831) / (bkg_exp_s=146.421491339395 * N_b=116872.781) = 0.000009 [count/s/pix]
+s = (src_cnts=2514.788) / (T_s=src_exp_s=146.421491339395) = 17.174992 [count/s]
+s_sig = (src_cnts_err=45.231) / T_s) = 0.308907 [count/s]
+r = s {17.174992} - b {0.001458} * N_s = 15.357762 [count/s]
+r_sig = sqrt(s_sig {0.308907}**2 + (b_sig {0.000009} * N_s)**2) = 0.309121 [count/s]
+nsigma = 49.68
+uvotsource: keyword CRVAL1 |197.543076667| => |197.543076667|
+uvotsource: keyword CRVAL2 |32.3575172141| => |32.3575172141|
+uvotsource: keyword CRPIX1 |712.5| => |712.5|
+uvotsource: keyword CRPIX2 |456.5| => |456.5|
+uvotsource: keyword CDELT1 |-0.00027888888381462| => |-0.00027888888381462|
+uvotsource: keyword CDELT2 |0.00027888888381462| => |0.00027888888381462|
+uvotsource: keyword CUNIT1 |deg| => |deg|
+uvotsource: keyword CUNIT2 |deg| => |deg|
+uvotsource: keyword CTYPE1 |RA---TAN| => |RA---TAN|
+uvotsource: keyword CTYPE2 |DEC--TAN| => |DEC--TAN|
+uvotsource: keyword CRVAL1D |0.| => |0.|
+uvotsource: keyword CRVAL2D |0.| => |0.|
+uvotsource: keyword CRPIX1D |606.250393508484| => |606.250393508484|
+uvotsource: keyword CRPIX2D |621.24743929127| => |621.24743929127|
+uvotsource: keyword CDELT1D |0.0181499958684615| => |0.0181499958684615|
+uvotsource: keyword CDELT2D |0.0181499958684615| => |0.0181499958684615|
+uvotsource: keyword CUNIT1D |mm| => |mm|
+uvotsource: keyword CUNIT2D |mm| => |mm|
+uvotsource: keyword CTYPE1D |DETX| => |DETX|
+uvotsource: keyword CTYPE2D |DETY| => |DETY|
+uvotsource: keyword PC1_1D |-0.959780917090781| => |-0.959780917090781|
+uvotsource: keyword PC1_2D |0.28075016740646| => |0.28075016740646|
+uvotsource: keyword PC2_1D |-0.280749716634484| => |-0.280749716634484|
+uvotsource: keyword PC2_2D |-0.959780980901105| => |-0.959780980901105|
+uvotsource: verbose: DET 1225.78,1571.16 => RAW 1160.01,1491.26
+uvotsource: Source
+            Position: RA = 13h 10m 28.75s, Dec = +32d 20m 43.3s (J2000)
+            Position: RA = 197.61981, Dec = 32.34535 (J2000)
+            Exposure: 146.42 s (source)
+            Exposure: 146.42 s (background)
+              Filter: UVW1
+        Significance: 49.7 sigma (stat)
+    Background-limit: 1.0 sigma (stat)
+uvotsource: UVOT uvw1 magnitude (Vega system)
+              Source: 14.24 +/- 0.03 (stat) +/- 0.03 (sys)
+          Background: 24.54 arcsec^-2
+    Background-limit: 19.56
+   Coincidence-limit: 11.01
+uvotsource: UVOT uvw1 magnitude (AB system)
+              Source: 15.75 +/- 0.03 (stat) +/- 0.03 (sys)
+          Background: 26.05 arcsec^-2
+    Background-limit: 21.07
+   Coincidence-limit: 12.52
+uvotsource: Flux density [erg/s/cm^2/A]
+              Source: 8.00 +/- 0.19 (stat) +/- 0.25 (sys) x 10^-15
+          Background: 6.09 +/- 0.04 (stat) +/- 0.19 (sys) x 10^-19 arcsec^-2
+    Background-limit: 5.96 x 10^-17
+   Coincidence-limit: 1.57 x 10^-13
+uvotsource: Corrected rate [count/s]
+              Source: 19.003 +/- 0.452 (stat)
+          Background: 0.0014 arcsec^-2
+    Background-limit: 0.142
+   Coincidence-limit: 372.234
+uvotsource: Raw rate [count/s]
+              Source: 15.358 +/- 0.309 (stat)
+          Background: 0.0014 arcsec^-2
+    Background-limit: 0.115
+   Coincidence-limit: 90.644
+uvotsource: Flux density [mJy at 1.157 x 10^15 Hz]
+              Source: 1.79 +/- 0.04 (stat) +/- 0.06 (sys) x 10^0
+          Background: 1.36 +/- 0.01 (stat) +/- 0.04 (sys) x 10^-4 arcsec^-2
+    Background-limit: 1.33 x 10^-2
+   Coincidence-limit: 3.51 x 10^1
+uvotsource: shell ftcreate "cdfile=his.978950.4.cdf" "datafile=his.978950.5.dat" "outfile=this.978950.7.fits" "nskip=0" "clobber=NO" "morehdr=0" "history=NO" "tabtyp=BINARY" "inull=0" "nrows=0" "chatter=1"
+uvotsource: --- begin/end ftcreate
+uvotsource: shell fthedit "infile=this.978950.7.fits+1" "keyword=@head.978950.6.txt" "chatter=1" "protect=YES" "longstring=NO" "history=NO"
+uvotsource: --- begin/end fthedit
+uvotsource: shell fthedit "infile=this.978950.7.fits+0" "keyword=@head.978950.6.txt" "history=NO" "longstring=NO" "chatter=1" "protect=YES"
+uvotsource: --- begin/end fthedit
+uvotsource: complete [time=1728337968, delta=215, elapsed=215]
+uvotsource: Got parameters:
+	image = /mnt/sdb1/Swift/OP313/reproc/00036384074/uvot/image/sw00036384074uw1_sk.img.gz+1
+	srcreg = /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/source.sw00036384074uw1_sk.reg
+	bkgreg = /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/background.sw00036384074uw1_sk.reg
+	sigma = 1
+	apercorr = CURVEOFGROWTH
+	output = ALL
+	expfile = NONE
+	cleanup = yes
+	clobber = yes
+	chatter = 5
+uvotsource: Checking quality of input files
+uvotsource: /mnt/sdb1/Swift/OP313/reproc/00036384074/uvot/image/sw00036384074uw1_sk.img.gz+1: OK
+uvotsource: Reading image keywords
+uvotsource: querying CALDB with
+	CODENAME => COINCIDENCE
+	MISSION => SWIFT
+	INSTRUMENT => UVOTA
+	DETECTOR => 1200
+	FILTER => UVW1
+	STARTDATE => 2024-03-03
+	STARTTIME => 22:03:24
+	STOPDATE => 2024-03-03
+	STOPTIME => 22:03:24
+	EXPRESSION => -
+uvotsource: selected COINCIDENCE https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/uvota/bcf/coinc/swucountcor20010101v103.fits[1]
+uvotsource: querying CALDB with
+	CODENAME => COLORTABLE
+	MISSION => SWIFT
+	INSTRUMENT => UVOTA
+	DETECTOR => 1200
+	FILTER => UVW1
+	STARTDATE => 2024-03-03
+	STARTTIME => 22:03:24
+	STOPDATE => 2024-03-03
+	STOPTIME => 22:03:24
+	EXPRESSION => -
+uvotsource: selected COLORTABLE https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/uvota/bcf/phot/swuphot20041120v108.fits[1]
+uvotsource: AB magnitude system
+uvotsource: 	B       : ZPT=18.98 ZPE=0.02 FCF=1.480E-16 FCE=5.6E-19 WAV=4321
+uvotsource: 	U       : ZPT=19.36 ZPE=0.02 FCF=1.663E-16 FCE=2.5E-18 WAV=3442
+uvotsource: 	V       : ZPT=17.88 ZPE=0.01 FCF=2.611E-16 FCE=8.7E-19 WAV=5410
+uvotsource: 	WHITE   : ZPT=21.09 ZPE=0.04 FCF=5.249E-17 FCE=7.0E-18 WAV=2753
+uvotsource: 	UVW1    : ZPT=18.95 ZPE=0.03 FCF=4.623E-16 FCE=1.4E-17 WAV=2486
+uvotsource: 	UVW2    : ZPT=19.11 ZPE=0.03 FCF=6.225E-16 FCE=1.3E-17 WAV=1991
+uvotsource: 	UVM2    : ZPT=18.54 ZPE=0.03 FCF=8.489E-16 FCE=5.3E-18 WAV=2221
+uvotsource: 	VGRISM  : ZPT=99.99 ZPE=0.0 FCF=0.0 FCE=0.0 WAV=0
+uvotsource: 	UGRISM  : ZPT=99.99 ZPE=0.0 FCF=0.0 FCE=0.0 WAV=0
+uvotsource: Vega magnitude system
+uvotsource: 	B       : ZPT=19.11 ZPE=0.02 FCF=1.471E-16 FCE=5.6E-19 WAV=4329
+uvotsource: 	U       : ZPT=18.34 ZPE=0.02 FCF=1.628E-16 FCE=2.5E-18 WAV=3501
+uvotsource: 	V       : ZPT=17.89 ZPE=0.01 FCF=2.613E-16 FCE=8.7E-19 WAV=5402
+uvotsource: 	WHITE   : ZPT=20.29 ZPE=0.04 FCF=3.677E-17 FCE=4.9E-18 WAV=3470
+uvotsource: 	UVW1    : ZPT=17.44 ZPE=0.03 FCF=4.209E-16 FCE=1.3E-17 WAV=2591
+uvotsource: 	UVW2    : ZPT=17.38 ZPE=0.03 FCF=5.976E-16 FCE=1.3E-17 WAV=2033
+uvotsource: 	UVM2    : ZPT=16.85 ZPE=0.03 FCF=8.446E-16 FCE=5.3E-18 WAV=2229
+uvotsource: 	VGRISM  : ZPT=99.99 ZPE=0.0 FCF=0.0 FCE=0.0 WAV=0
+uvotsource: 	UGRISM  : ZPT=99.99 ZPE=0.0 FCF=0.0 FCE=0.0 WAV=0
+uvotsource: querying CALDB with
+	CODENAME => REEF
+	MISSION => SWIFT
+	INSTRUMENT => UVOTA
+	DETECTOR => 1200
+	FILTER => -
+	STARTDATE => 2024-03-03
+	STARTTIME => 22:03:24
+	STOPDATE => 2024-03-03
+	STOPTIME => 22:03:24
+	EXPRESSION => -
+uvotsource: selected REEF https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/uvota/cpf/psf/swureef20041120v104.fits
+uvotsource: querying CALDB with
+	CODENAME => SKYFLAT
+	MISSION => SWIFT
+	INSTRUMENT => UVOTA
+	DETECTOR => 1200
+	FILTER => UVW1
+	STARTDATE => 2024-03-03
+	STARTTIME => 22:03:24
+	STOPDATE => 2024-03-03
+	STOPTIME => 22:03:24
+	EXPRESSION => -
+uvotsource: selected SKYFLAT https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/uvota/bcf/flats/swulssens20041120v003.fits[4]
+uvotsource: querying CALDB with
+	CODENAME => SENSCORR
+	MISSION => SWIFT
+	INSTRUMENT => UVOTA
+	DETECTOR => 1200
+	FILTER => -
+	STARTDATE => 2024-03-03
+	STARTTIME => 22:03:24
+	STOPDATE => 2024-03-03
+	STOPTIME => 22:03:24
+	EXPRESSION => -
+uvotsource: selected SENSCORR https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/uvota/bcf/senscorr/swusenscorr20041120v007.fits[1]
+uvotsource: /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/source.sw00036384074uw1_sk.reg: looks OK
+uvotsource: /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/background.sw00036384074uw1_sk.reg: looks OK
+uvotsource: verbose: not checking whether regions are in FOV
+not checking whether regions are in FOV
+uvotsource: verbose: no exposure map so only able to validate that regions are inside image
+uvotsource: shell uvotinteg "infile=/mnt/sdb1/Swift/OP313/reproc/00036384074/uvot/image/sw00036384074uw1_sk.img.gz+1[pix 1]" "regfile=/mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/source.sw00036384074uw1_sk.reg,/mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/background.sw00036384074uw1_sk.reg" "operation=FOV" "subpixels=8" "control=BASIC" "nsigma=3" "nullarea=no" "format=DEFAULT" "chatter=2" "sysname=DEFAULT"
+uvotsource: 
+--- begin uvotinteg
+monitor: fov: 1.000 [value]
+monitor: nulls: 0
+monitor: goods: 79795
+monitor: fov: 1.000 [value]
+monitor: nulls: 0
+monitor: goods: 7479858
+--- end uvotinteg
+uvotsource: verbose: /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/source.sw00036384074uw1_sk.reg containment is 1.000
+uvotsource: verbose: /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/background.sw00036384074uw1_sk.reg containment is 1.000
+uvotsource: shell uvotinteg "infile=/mnt/sdb1/Swift/OP313/reproc/00036384074/uvot/image/sw00036384074uw1_sk.img.gz+1" "regfile=tmpsrcreg.1066710.2.reg,tmpbkgreg.1066710.1.reg,std.1066710.3.reg" "operation=AREA,SUM" "subpixels=8" "chatter=2" "sysname=DEFAULT" "format=DEFAULT" "nullarea=no" "control=BASIC" "nsigma=3"
+uvotsource: 
+--- begin uvotinteg
+monitor: area: 1246.797 [pixel]
+monitor: nulls: 0
+monitor: goods: 79795
+monitor: sum: 2514.788 [value]
+monitor: area: 116872.781 [pixel]
+monitor: nulls: 0
+monitor: goods: 7479858
+monitor: sum: 24942.070 [value]
+monitor: area: 77.906 [pixel]
+monitor: nulls: 0
+monitor: goods: 4986
+monitor: sum: 1911.087 [value]
+--- end uvotinteg
+source2 updateFrametimeParameters NFRAMES (HDR) = 13484.8769906057
+source2 updateFrametimeParameters NFRAMES (SRC) = 13484.8769906057
+source2 updateFrametimeParameters NFRAMES (BKG) = 13484.8769906057
+
+Source2 .. deriveRates  exposure src = 146.421491339395
+Source2 .. deriveRates  exposure bkg = 146.421491339395
+Source2 .. deriveRates  exposure hdr = 146.421491339395
+Source2 .. deriveRates  NFRAMES(SRC,BKG) = 13484.8769906057,13484.8769906057 !!! 
+bkg: counts=24942.070 area=116872.781 [pix] exp=146.421491339395 [s]
+src: counts=2514.788 area=1246.797 [pix] exp=146.421491339395 [s]
+b = (bkg_cnts=24942.070) / (bkg_exp_s=146.421491339395 * N_b=116872.781) = 0.001458 [count/s/pix]
+b_sig = (bkg_cnts_err = 157.831) / (bkg_exp_s=146.421491339395 * N_b=116872.781) = 0.000009 [count/s/pix]
+s = (src_cnts=2514.788) / (T_s=src_exp_s=146.421491339395) = 17.174992 [count/s]
+s_sig = (src_cnts_err=45.231) / T_s) = 0.308907 [count/s]
+r = s {17.174992} - b {0.001458} * N_s = 15.357762 [count/s]
+r_sig = sqrt(s_sig {0.308907}**2 + (b_sig {0.000009} * N_s)**2) = 0.309121 [count/s]
+nsigma = 49.68
+uvotsource: keyword CRVAL1 |197.543076667| => |197.543076667|
+uvotsource: keyword CRVAL2 |32.3575172141| => |32.3575172141|
+uvotsource: keyword CRPIX1 |712.5| => |712.5|
+uvotsource: keyword CRPIX2 |456.5| => |456.5|
+uvotsource: keyword CDELT1 |-0.00027888888381462| => |-0.00027888888381462|
+uvotsource: keyword CDELT2 |0.00027888888381462| => |0.00027888888381462|
+uvotsource: keyword CUNIT1 |deg| => |deg|
+uvotsource: keyword CUNIT2 |deg| => |deg|
+uvotsource: keyword CTYPE1 |RA---TAN| => |RA---TAN|
+uvotsource: keyword CTYPE2 |DEC--TAN| => |DEC--TAN|
+uvotsource: keyword CRVAL1D |0.| => |0.|
+uvotsource: keyword CRVAL2D |0.| => |0.|
+uvotsource: keyword CRPIX1D |606.250393508484| => |606.250393508484|
+uvotsource: keyword CRPIX2D |621.24743929127| => |621.24743929127|
+uvotsource: keyword CDELT1D |0.0181499958684615| => |0.0181499958684615|
+uvotsource: keyword CDELT2D |0.0181499958684615| => |0.0181499958684615|
+uvotsource: keyword CUNIT1D |mm| => |mm|
+uvotsource: keyword CUNIT2D |mm| => |mm|
+uvotsource: keyword CTYPE1D |DETX| => |DETX|
+uvotsource: keyword CTYPE2D |DETY| => |DETY|
+uvotsource: keyword PC1_1D |-0.959780917090781| => |-0.959780917090781|
+uvotsource: keyword PC1_2D |0.28075016740646| => |0.28075016740646|
+uvotsource: keyword PC2_1D |-0.280749716634484| => |-0.280749716634484|
+uvotsource: keyword PC2_2D |-0.959780980901105| => |-0.959780980901105|
+uvotsource: verbose: DET 1225.78,1571.16 => RAW 1160.01,1491.26
+uvotsource: Source
+            Position: RA = 13h 10m 28.75s, Dec = +32d 20m 43.3s (J2000)
+            Position: RA = 197.61981, Dec = 32.34535 (J2000)
+            Exposure: 146.42 s (source)
+            Exposure: 146.42 s (background)
+              Filter: UVW1
+        Significance: 49.7 sigma (stat)
+    Background-limit: 1.0 sigma (stat)
+uvotsource: UVOT uvw1 magnitude (Vega system)
+              Source: 14.24 +/- 0.03 (stat) +/- 0.03 (sys)
+          Background: 24.54 arcsec^-2
+    Background-limit: 19.56
+   Coincidence-limit: 11.01
+uvotsource: UVOT uvw1 magnitude (AB system)
+              Source: 15.75 +/- 0.03 (stat) +/- 0.03 (sys)
+          Background: 26.05 arcsec^-2
+    Background-limit: 21.07
+   Coincidence-limit: 12.52
+uvotsource: Flux density [erg/s/cm^2/A]
+              Source: 8.00 +/- 0.19 (stat) +/- 0.25 (sys) x 10^-15
+          Background: 6.09 +/- 0.04 (stat) +/- 0.19 (sys) x 10^-19 arcsec^-2
+    Background-limit: 5.96 x 10^-17
+   Coincidence-limit: 1.57 x 10^-13
+uvotsource: Corrected rate [count/s]
+              Source: 19.003 +/- 0.452 (stat)
+          Background: 0.0014 arcsec^-2
+    Background-limit: 0.142
+   Coincidence-limit: 372.234
+uvotsource: Raw rate [count/s]
+              Source: 15.358 +/- 0.309 (stat)
+          Background: 0.0014 arcsec^-2
+    Background-limit: 0.115
+   Coincidence-limit: 90.644
+uvotsource: Flux density [mJy at 1.157 x 10^15 Hz]
+              Source: 1.79 +/- 0.04 (stat) +/- 0.06 (sys) x 10^0
+          Background: 1.36 +/- 0.01 (stat) +/- 0.04 (sys) x 10^-4 arcsec^-2
+    Background-limit: 1.33 x 10^-2
+   Coincidence-limit: 3.51 x 10^1
+uvotsource: shell ftcreate "cdfile=his.1066710.4.cdf" "datafile=his.1066710.5.dat" "outfile=this.1066710.7.fits" "morehdr=0" "history=NO" "inull=0" "nskip=0" "nrows=0" "chatter=1" "clobber=NO" "tabtyp=BINARY"
+uvotsource: --- begin/end ftcreate
+uvotsource: shell fthedit "infile=this.1066710.7.fits+1" "keyword=@head.1066710.6.txt" "chatter=1" "protect=YES" "longstring=NO" "history=NO"
+uvotsource: --- begin/end fthedit
+uvotsource: shell fthedit "infile=this.1066710.7.fits+0" "keyword=@head.1066710.6.txt" "protect=YES" "chatter=1" "longstring=NO" "history=NO"
+uvotsource: --- begin/end fthedit
+uvotsource: complete [time=1728401228, delta=200, elapsed=200]
+uvotsource: Got parameters:
+	image = /mnt/sdb1/Swift/OP313/reproc/00036384074/uvot/image/sw00036384074uw1_sk.img.gz+1
+	srcreg = /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/source.sw00036384074uw1_sk.reg
+	bkgreg = /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/background.sw00036384074uw1_sk.reg
+	sigma = 1
+	apercorr = CURVEOFGROWTH
+	output = ALL
+	expfile = NONE
+	cleanup = yes
+	clobber = yes
+	chatter = 5
+uvotsource: Checking quality of input files
+uvotsource: /mnt/sdb1/Swift/OP313/reproc/00036384074/uvot/image/sw00036384074uw1_sk.img.gz+1: OK
+uvotsource: Reading image keywords
+uvotsource: querying CALDB with
+	CODENAME => COINCIDENCE
+	MISSION => SWIFT
+	INSTRUMENT => UVOTA
+	DETECTOR => 1200
+	FILTER => UVW1
+	STARTDATE => 2024-03-03
+	STARTTIME => 22:03:24
+	STOPDATE => 2024-03-03
+	STOPTIME => 22:03:24
+	EXPRESSION => -
+uvotsource: selected COINCIDENCE https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/uvota/bcf/coinc/swucountcor20010101v103.fits[1]
+uvotsource: querying CALDB with
+	CODENAME => COLORTABLE
+	MISSION => SWIFT
+	INSTRUMENT => UVOTA
+	DETECTOR => 1200
+	FILTER => UVW1
+	STARTDATE => 2024-03-03
+	STARTTIME => 22:03:24
+	STOPDATE => 2024-03-03
+	STOPTIME => 22:03:24
+	EXPRESSION => -
+uvotsource: selected COLORTABLE https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/uvota/bcf/phot/swuphot20041120v108.fits[1]
+uvotsource: AB magnitude system
+uvotsource: 	B       : ZPT=18.98 ZPE=0.02 FCF=1.480E-16 FCE=5.6E-19 WAV=4321
+uvotsource: 	U       : ZPT=19.36 ZPE=0.02 FCF=1.663E-16 FCE=2.5E-18 WAV=3442
+uvotsource: 	V       : ZPT=17.88 ZPE=0.01 FCF=2.611E-16 FCE=8.7E-19 WAV=5410
+uvotsource: 	WHITE   : ZPT=21.09 ZPE=0.04 FCF=5.249E-17 FCE=7.0E-18 WAV=2753
+uvotsource: 	UVW1    : ZPT=18.95 ZPE=0.03 FCF=4.623E-16 FCE=1.4E-17 WAV=2486
+uvotsource: 	UVW2    : ZPT=19.11 ZPE=0.03 FCF=6.225E-16 FCE=1.3E-17 WAV=1991
+uvotsource: 	UVM2    : ZPT=18.54 ZPE=0.03 FCF=8.489E-16 FCE=5.3E-18 WAV=2221
+uvotsource: 	VGRISM  : ZPT=99.99 ZPE=0.0 FCF=0.0 FCE=0.0 WAV=0
+uvotsource: 	UGRISM  : ZPT=99.99 ZPE=0.0 FCF=0.0 FCE=0.0 WAV=0
+uvotsource: Vega magnitude system
+uvotsource: 	B       : ZPT=19.11 ZPE=0.02 FCF=1.471E-16 FCE=5.6E-19 WAV=4329
+uvotsource: 	U       : ZPT=18.34 ZPE=0.02 FCF=1.628E-16 FCE=2.5E-18 WAV=3501
+uvotsource: 	V       : ZPT=17.89 ZPE=0.01 FCF=2.613E-16 FCE=8.7E-19 WAV=5402
+uvotsource: 	WHITE   : ZPT=20.29 ZPE=0.04 FCF=3.677E-17 FCE=4.9E-18 WAV=3470
+uvotsource: 	UVW1    : ZPT=17.44 ZPE=0.03 FCF=4.209E-16 FCE=1.3E-17 WAV=2591
+uvotsource: 	UVW2    : ZPT=17.38 ZPE=0.03 FCF=5.976E-16 FCE=1.3E-17 WAV=2033
+uvotsource: 	UVM2    : ZPT=16.85 ZPE=0.03 FCF=8.446E-16 FCE=5.3E-18 WAV=2229
+uvotsource: 	VGRISM  : ZPT=99.99 ZPE=0.0 FCF=0.0 FCE=0.0 WAV=0
+uvotsource: 	UGRISM  : ZPT=99.99 ZPE=0.0 FCF=0.0 FCE=0.0 WAV=0
+uvotsource: querying CALDB with
+	CODENAME => REEF
+	MISSION => SWIFT
+	INSTRUMENT => UVOTA
+	DETECTOR => 1200
+	FILTER => -
+	STARTDATE => 2024-03-03
+	STARTTIME => 22:03:24
+	STOPDATE => 2024-03-03
+	STOPTIME => 22:03:24
+	EXPRESSION => -
+uvotsource: selected REEF https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/uvota/cpf/psf/swureef20041120v104.fits
+uvotsource: querying CALDB with
+	CODENAME => SKYFLAT
+	MISSION => SWIFT
+	INSTRUMENT => UVOTA
+	DETECTOR => 1200
+	FILTER => UVW1
+	STARTDATE => 2024-03-03
+	STARTTIME => 22:03:24
+	STOPDATE => 2024-03-03
+	STOPTIME => 22:03:24
+	EXPRESSION => -
+uvotsource: selected SKYFLAT https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/uvota/bcf/flats/swulssens20041120v003.fits[4]
+uvotsource: querying CALDB with
+	CODENAME => SENSCORR
+	MISSION => SWIFT
+	INSTRUMENT => UVOTA
+	DETECTOR => 1200
+	FILTER => -
+	STARTDATE => 2024-03-03
+	STARTTIME => 22:03:24
+	STOPDATE => 2024-03-03
+	STOPTIME => 22:03:24
+	EXPRESSION => -
+uvotsource: selected SENSCORR https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/uvota/bcf/senscorr/swusenscorr20041120v007.fits[1]
+uvotsource: /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/source.sw00036384074uw1_sk.reg: looks OK
+uvotsource: /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/background.sw00036384074uw1_sk.reg: looks OK
+uvotsource: verbose: not checking whether regions are in FOV
+not checking whether regions are in FOV
+uvotsource: verbose: no exposure map so only able to validate that regions are inside image
+uvotsource: shell uvotinteg "infile=/mnt/sdb1/Swift/OP313/reproc/00036384074/uvot/image/sw00036384074uw1_sk.img.gz+1[pix 1]" "regfile=/mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/source.sw00036384074uw1_sk.reg,/mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/background.sw00036384074uw1_sk.reg" "operation=FOV" "subpixels=8" "nullarea=no" "nsigma=3" "format=DEFAULT" "chatter=2" "control=BASIC" "sysname=DEFAULT"
+uvotsource: 
+--- begin uvotinteg
+monitor: fov: 1.000 [value]
+monitor: nulls: 0
+monitor: goods: 79795
+monitor: fov: 1.000 [value]
+monitor: nulls: 0
+monitor: goods: 7479858
+--- end uvotinteg
+uvotsource: verbose: /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/source.sw00036384074uw1_sk.reg containment is 1.000
+uvotsource: verbose: /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/background.sw00036384074uw1_sk.reg containment is 1.000
+uvotsource: shell uvotinteg "infile=/mnt/sdb1/Swift/OP313/reproc/00036384074/uvot/image/sw00036384074uw1_sk.img.gz+1" "regfile=tmpsrcreg.1115759.2.reg,tmpbkgreg.1115759.1.reg,std.1115759.3.reg" "operation=AREA,SUM" "subpixels=8" "nullarea=no" "nsigma=3" "chatter=2" "format=DEFAULT" "sysname=DEFAULT" "control=BASIC"
+uvotsource: 
+--- begin uvotinteg
+monitor: area: 1246.797 [pixel]
+monitor: nulls: 0
+monitor: goods: 79795
+monitor: sum: 2514.788 [value]
+monitor: area: 116872.781 [pixel]
+monitor: nulls: 0
+monitor: goods: 7479858
+monitor: sum: 24942.070 [value]
+monitor: area: 77.906 [pixel]
+monitor: nulls: 0
+monitor: goods: 4986
+monitor: sum: 1911.087 [value]
+--- end uvotinteg
+source2 updateFrametimeParameters NFRAMES (HDR) = 13484.8769906057
+source2 updateFrametimeParameters NFRAMES (SRC) = 13484.8769906057
+source2 updateFrametimeParameters NFRAMES (BKG) = 13484.8769906057
+
+Source2 .. deriveRates  exposure src = 146.421491339395
+Source2 .. deriveRates  exposure bkg = 146.421491339395
+Source2 .. deriveRates  exposure hdr = 146.421491339395
+Source2 .. deriveRates  NFRAMES(SRC,BKG) = 13484.8769906057,13484.8769906057 !!! 
+bkg: counts=24942.070 area=116872.781 [pix] exp=146.421491339395 [s]
+src: counts=2514.788 area=1246.797 [pix] exp=146.421491339395 [s]
+b = (bkg_cnts=24942.070) / (bkg_exp_s=146.421491339395 * N_b=116872.781) = 0.001458 [count/s/pix]
+b_sig = (bkg_cnts_err = 157.831) / (bkg_exp_s=146.421491339395 * N_b=116872.781) = 0.000009 [count/s/pix]
+s = (src_cnts=2514.788) / (T_s=src_exp_s=146.421491339395) = 17.174992 [count/s]
+s_sig = (src_cnts_err=45.231) / T_s) = 0.308907 [count/s]
+r = s {17.174992} - b {0.001458} * N_s = 15.357762 [count/s]
+r_sig = sqrt(s_sig {0.308907}**2 + (b_sig {0.000009} * N_s)**2) = 0.309121 [count/s]
+nsigma = 49.68
+uvotsource: keyword CRVAL1 |197.543076667| => |197.543076667|
+uvotsource: keyword CRVAL2 |32.3575172141| => |32.3575172141|
+uvotsource: keyword CRPIX1 |712.5| => |712.5|
+uvotsource: keyword CRPIX2 |456.5| => |456.5|
+uvotsource: keyword CDELT1 |-0.00027888888381462| => |-0.00027888888381462|
+uvotsource: keyword CDELT2 |0.00027888888381462| => |0.00027888888381462|
+uvotsource: keyword CUNIT1 |deg| => |deg|
+uvotsource: keyword CUNIT2 |deg| => |deg|
+uvotsource: keyword CTYPE1 |RA---TAN| => |RA---TAN|
+uvotsource: keyword CTYPE2 |DEC--TAN| => |DEC--TAN|
+uvotsource: keyword CRVAL1D |0.| => |0.|
+uvotsource: keyword CRVAL2D |0.| => |0.|
+uvotsource: keyword CRPIX1D |606.250393508484| => |606.250393508484|
+uvotsource: keyword CRPIX2D |621.24743929127| => |621.24743929127|
+uvotsource: keyword CDELT1D |0.0181499958684615| => |0.0181499958684615|
+uvotsource: keyword CDELT2D |0.0181499958684615| => |0.0181499958684615|
+uvotsource: keyword CUNIT1D |mm| => |mm|
+uvotsource: keyword CUNIT2D |mm| => |mm|
+uvotsource: keyword CTYPE1D |DETX| => |DETX|
+uvotsource: keyword CTYPE2D |DETY| => |DETY|
+uvotsource: keyword PC1_1D |-0.959780917090781| => |-0.959780917090781|
+uvotsource: keyword PC1_2D |0.28075016740646| => |0.28075016740646|
+uvotsource: keyword PC2_1D |-0.280749716634484| => |-0.280749716634484|
+uvotsource: keyword PC2_2D |-0.959780980901105| => |-0.959780980901105|
+uvotsource: verbose: DET 1225.78,1571.16 => RAW 1160.01,1491.26
+uvotsource: Source
+            Position: RA = 13h 10m 28.75s, Dec = +32d 20m 43.3s (J2000)
+            Position: RA = 197.61981, Dec = 32.34535 (J2000)
+            Exposure: 146.42 s (source)
+            Exposure: 146.42 s (background)
+              Filter: UVW1
+        Significance: 49.7 sigma (stat)
+    Background-limit: 1.0 sigma (stat)
+uvotsource: UVOT uvw1 magnitude (Vega system)
+              Source: 14.24 +/- 0.03 (stat) +/- 0.03 (sys)
+          Background: 24.54 arcsec^-2
+    Background-limit: 19.56
+   Coincidence-limit: 11.01
+uvotsource: UVOT uvw1 magnitude (AB system)
+              Source: 15.75 +/- 0.03 (stat) +/- 0.03 (sys)
+          Background: 26.05 arcsec^-2
+    Background-limit: 21.07
+   Coincidence-limit: 12.52
+uvotsource: Flux density [erg/s/cm^2/A]
+              Source: 8.00 +/- 0.19 (stat) +/- 0.25 (sys) x 10^-15
+          Background: 6.09 +/- 0.04 (stat) +/- 0.19 (sys) x 10^-19 arcsec^-2
+    Background-limit: 5.96 x 10^-17
+   Coincidence-limit: 1.57 x 10^-13
+uvotsource: Corrected rate [count/s]
+              Source: 19.003 +/- 0.452 (stat)
+          Background: 0.0014 arcsec^-2
+    Background-limit: 0.142
+   Coincidence-limit: 372.234
+uvotsource: Raw rate [count/s]
+              Source: 15.358 +/- 0.309 (stat)
+          Background: 0.0014 arcsec^-2
+    Background-limit: 0.115
+   Coincidence-limit: 90.644
+uvotsource: Flux density [mJy at 1.157 x 10^15 Hz]
+              Source: 1.79 +/- 0.04 (stat) +/- 0.06 (sys) x 10^0
+          Background: 1.36 +/- 0.01 (stat) +/- 0.04 (sys) x 10^-4 arcsec^-2
+    Background-limit: 1.33 x 10^-2
+   Coincidence-limit: 3.51 x 10^1
+uvotsource: shell ftcreate "cdfile=his.1115759.4.cdf" "datafile=his.1115759.5.dat" "outfile=this.1115759.7.fits" "inull=0" "tabtyp=BINARY" "nskip=0" "history=NO" "chatter=1" "nrows=0" "morehdr=0" "clobber=NO"
+uvotsource: --- begin/end ftcreate
+uvotsource: shell fthedit "infile=this.1115759.7.fits+1" "keyword=@head.1115759.6.txt" "longstring=NO" "chatter=1" "history=NO" "protect=YES"
+uvotsource: --- begin/end fthedit
+uvotsource: shell fthedit "infile=this.1115759.7.fits+0" "keyword=@head.1115759.6.txt" "longstring=NO" "protect=YES" "chatter=1" "history=NO"
+uvotsource: --- begin/end fthedit
+uvotsource: complete [time=1728453617, delta=188, elapsed=188]
+uvotsource: Got parameters:
+	image = /mnt/sdb1/Swift/OP313/reproc/00036384074/uvot/image/sw00036384074uw1_sk.img.gz+1
+	srcreg = /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/source.sw00036384074uw1_sk.reg
+	bkgreg = /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/background.sw00036384074uw1_sk.reg
+	sigma = 1
+	apercorr = CURVEOFGROWTH
+	output = ALL
+	expfile = NONE
+	cleanup = yes
+	clobber = yes
+	chatter = 5
+uvotsource: Checking quality of input files
+uvotsource: /mnt/sdb1/Swift/OP313/reproc/00036384074/uvot/image/sw00036384074uw1_sk.img.gz+1: OK
+uvotsource: Reading image keywords
+uvotsource: querying CALDB with
+	CODENAME => COINCIDENCE
+	MISSION => SWIFT
+	INSTRUMENT => UVOTA
+	DETECTOR => 1200
+	FILTER => UVW1
+	STARTDATE => 2024-03-03
+	STARTTIME => 22:03:24
+	STOPDATE => 2024-03-03
+	STOPTIME => 22:03:24
+	EXPRESSION => -
+uvotsource: selected COINCIDENCE https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/uvota/bcf/coinc/swucountcor20010101v103.fits[1]
+uvotsource: querying CALDB with
+	CODENAME => COLORTABLE
+	MISSION => SWIFT
+	INSTRUMENT => UVOTA
+	DETECTOR => 1200
+	FILTER => UVW1
+	STARTDATE => 2024-03-03
+	STARTTIME => 22:03:24
+	STOPDATE => 2024-03-03
+	STOPTIME => 22:03:24
+	EXPRESSION => -
+uvotsource: selected COLORTABLE https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/uvota/bcf/phot/swuphot20041120v108.fits[1]
+uvotsource: AB magnitude system
+uvotsource: 	B       : ZPT=18.98 ZPE=0.02 FCF=1.480E-16 FCE=5.6E-19 WAV=4321
+uvotsource: 	U       : ZPT=19.36 ZPE=0.02 FCF=1.663E-16 FCE=2.5E-18 WAV=3442
+uvotsource: 	V       : ZPT=17.88 ZPE=0.01 FCF=2.611E-16 FCE=8.7E-19 WAV=5410
+uvotsource: 	WHITE   : ZPT=21.09 ZPE=0.04 FCF=5.249E-17 FCE=7.0E-18 WAV=2753
+uvotsource: 	UVW1    : ZPT=18.95 ZPE=0.03 FCF=4.623E-16 FCE=1.4E-17 WAV=2486
+uvotsource: 	UVW2    : ZPT=19.11 ZPE=0.03 FCF=6.225E-16 FCE=1.3E-17 WAV=1991
+uvotsource: 	UVM2    : ZPT=18.54 ZPE=0.03 FCF=8.489E-16 FCE=5.3E-18 WAV=2221
+uvotsource: 	VGRISM  : ZPT=99.99 ZPE=0.0 FCF=0.0 FCE=0.0 WAV=0
+uvotsource: 	UGRISM  : ZPT=99.99 ZPE=0.0 FCF=0.0 FCE=0.0 WAV=0
+uvotsource: Vega magnitude system
+uvotsource: 	B       : ZPT=19.11 ZPE=0.02 FCF=1.471E-16 FCE=5.6E-19 WAV=4329
+uvotsource: 	U       : ZPT=18.34 ZPE=0.02 FCF=1.628E-16 FCE=2.5E-18 WAV=3501
+uvotsource: 	V       : ZPT=17.89 ZPE=0.01 FCF=2.613E-16 FCE=8.7E-19 WAV=5402
+uvotsource: 	WHITE   : ZPT=20.29 ZPE=0.04 FCF=3.677E-17 FCE=4.9E-18 WAV=3470
+uvotsource: 	UVW1    : ZPT=17.44 ZPE=0.03 FCF=4.209E-16 FCE=1.3E-17 WAV=2591
+uvotsource: 	UVW2    : ZPT=17.38 ZPE=0.03 FCF=5.976E-16 FCE=1.3E-17 WAV=2033
+uvotsource: 	UVM2    : ZPT=16.85 ZPE=0.03 FCF=8.446E-16 FCE=5.3E-18 WAV=2229
+uvotsource: 	VGRISM  : ZPT=99.99 ZPE=0.0 FCF=0.0 FCE=0.0 WAV=0
+uvotsource: 	UGRISM  : ZPT=99.99 ZPE=0.0 FCF=0.0 FCE=0.0 WAV=0
+uvotsource: querying CALDB with
+	CODENAME => REEF
+	MISSION => SWIFT
+	INSTRUMENT => UVOTA
+	DETECTOR => 1200
+	FILTER => -
+	STARTDATE => 2024-03-03
+	STARTTIME => 22:03:24
+	STOPDATE => 2024-03-03
+	STOPTIME => 22:03:24
+	EXPRESSION => -
+uvotsource: selected REEF https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/uvota/cpf/psf/swureef20041120v104.fits
+uvotsource: querying CALDB with
+	CODENAME => SKYFLAT
+	MISSION => SWIFT
+	INSTRUMENT => UVOTA
+	DETECTOR => 1200
+	FILTER => UVW1
+	STARTDATE => 2024-03-03
+	STARTTIME => 22:03:24
+	STOPDATE => 2024-03-03
+	STOPTIME => 22:03:24
+	EXPRESSION => -
+uvotsource: selected SKYFLAT https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/uvota/bcf/flats/swulssens20041120v003.fits[4]
+uvotsource: querying CALDB with
+	CODENAME => SENSCORR
+	MISSION => SWIFT
+	INSTRUMENT => UVOTA
+	DETECTOR => 1200
+	FILTER => -
+	STARTDATE => 2024-03-03
+	STARTTIME => 22:03:24
+	STOPDATE => 2024-03-03
+	STOPTIME => 22:03:24
+	EXPRESSION => -
+uvotsource: selected SENSCORR https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/uvota/bcf/senscorr/swusenscorr20041120v007.fits[1]
+uvotsource: /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/source.sw00036384074uw1_sk.reg: looks OK
+uvotsource: /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/background.sw00036384074uw1_sk.reg: looks OK
+uvotsource: verbose: not checking whether regions are in FOV
+not checking whether regions are in FOV
+uvotsource: verbose: no exposure map so only able to validate that regions are inside image
+uvotsource: shell uvotinteg "infile=/mnt/sdb1/Swift/OP313/reproc/00036384074/uvot/image/sw00036384074uw1_sk.img.gz+1[pix 1]" "regfile=/mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/source.sw00036384074uw1_sk.reg,/mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/background.sw00036384074uw1_sk.reg" "operation=FOV" "subpixels=8" "control=BASIC" "sysname=DEFAULT" "nullarea=no" "format=DEFAULT" "nsigma=3" "chatter=2"
+uvotsource: 
+--- begin uvotinteg
+monitor: fov: 1.000 [value]
+monitor: nulls: 0
+monitor: goods: 124665
+monitor: fov: 1.000 [value]
+monitor: nulls: 0
+monitor: goods: 31196144
+--- end uvotinteg
+uvotsource: verbose: /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/source.sw00036384074uw1_sk.reg containment is 1.000
+uvotsource: verbose: /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/background.sw00036384074uw1_sk.reg containment is 1.000
+uvotsource: shell uvotinteg "infile=/mnt/sdb1/Swift/OP313/reproc/00036384074/uvot/image/sw00036384074uw1_sk.img.gz+1" "regfile=tmpsrcreg.1269634.2.reg,tmpbkgreg.1269634.1.reg,std.1269634.3.reg" "operation=AREA,SUM" "subpixels=8" "nullarea=no" "format=DEFAULT" "nsigma=3" "chatter=2" "control=BASIC" "sysname=DEFAULT"
+uvotsource: 
+--- begin uvotinteg
+monitor: area: 1947.891 [pixel]
+monitor: nulls: 0
+monitor: goods: 124665
+monitor: sum: 2683.605 [value]
+monitor: area: 487439.750 [pixel]
+monitor: nulls: 0
+monitor: goods: 31196144
+monitor: sum: 94611.875 [value]
+monitor: area: 78.078 [pixel]
+monitor: nulls: 0
+monitor: goods: 4997
+monitor: sum: 1940.335 [value]
+--- end uvotinteg
+source2 updateFrametimeParameters NFRAMES (HDR) = 13484.8769906057
+source2 updateFrametimeParameters NFRAMES (SRC) = 13484.8769906057
+source2 updateFrametimeParameters NFRAMES (BKG) = 13484.8769906057
+
+Source2 .. deriveRates  exposure src = 146.421491339395
+Source2 .. deriveRates  exposure bkg = 146.421491339395
+Source2 .. deriveRates  exposure hdr = 146.421491339395
+Source2 .. deriveRates  NFRAMES(SRC,BKG) = 13484.8769906057,13484.8769906057 !!! 
+bkg: counts=94611.875 area=487439.75 [pix] exp=146.421491339395 [s]
+src: counts=2683.605 area=1947.891 [pix] exp=146.421491339395 [s]
+b = (bkg_cnts=94611.875) / (bkg_exp_s=146.421491339395 * N_b=487439.75) = 0.001326 [count/s/pix]
+b_sig = (bkg_cnts_err = 307.415) / (bkg_exp_s=146.421491339395 * N_b=487439.75) = 0.000004 [count/s/pix]
+s = (src_cnts=2683.605) / (T_s=src_exp_s=146.421491339395) = 18.327945 [count/s]
+s_sig = (src_cnts_err=46.363) / T_s) = 0.316642 [count/s]
+r = s {18.327945} - b {0.001326} * N_s = 15.745777 [count/s]
+r_sig = sqrt(s_sig {0.316642}**2 + (b_sig {0.000004} * N_s)**2) = 0.316753 [count/s]
+nsigma = 49.71
+uvotsource: keyword CRVAL1 |197.543076667| => |197.543076667|
+uvotsource: keyword CRVAL2 |32.3575172141| => |32.3575172141|
+uvotsource: keyword CRPIX1 |712.5| => |712.5|
+uvotsource: keyword CRPIX2 |456.5| => |456.5|
+uvotsource: keyword CDELT1 |-0.00027888888381462| => |-0.00027888888381462|
+uvotsource: keyword CDELT2 |0.00027888888381462| => |0.00027888888381462|
+uvotsource: keyword CUNIT1 |deg| => |deg|
+uvotsource: keyword CUNIT2 |deg| => |deg|
+uvotsource: keyword CTYPE1 |RA---TAN| => |RA---TAN|
+uvotsource: keyword CTYPE2 |DEC--TAN| => |DEC--TAN|
+uvotsource: keyword CRVAL1D |0.| => |0.|
+uvotsource: keyword CRVAL2D |0.| => |0.|
+uvotsource: keyword CRPIX1D |606.250393508484| => |606.250393508484|
+uvotsource: keyword CRPIX2D |621.24743929127| => |621.24743929127|
+uvotsource: keyword CDELT1D |0.0181499958684615| => |0.0181499958684615|
+uvotsource: keyword CDELT2D |0.0181499958684615| => |0.0181499958684615|
+uvotsource: keyword CUNIT1D |mm| => |mm|
+uvotsource: keyword CUNIT2D |mm| => |mm|
+uvotsource: keyword CTYPE1D |DETX| => |DETX|
+uvotsource: keyword CTYPE2D |DETY| => |DETY|
+uvotsource: keyword PC1_1D |-0.959780917090781| => |-0.959780917090781|
+uvotsource: keyword PC1_2D |0.28075016740646| => |0.28075016740646|
+uvotsource: keyword PC2_1D |-0.280749716634484| => |-0.280749716634484|
+uvotsource: keyword PC2_2D |-0.959780980901105| => |-0.959780980901105|
+uvotsource: verbose: DET 1223.53,1570.47 => RAW 1157.70,1490.55
+uvotsource: Source
+            Position: RA = 13h 10m 28.66s, Dec = +32d 20m 43.3s (J2000)
+            Position: RA = 197.61942, Dec = 32.34536 (J2000)
+            Exposure: 146.42 s (source)
+            Exposure: 146.42 s (background)
+              Filter: UVW1
+        Significance: 49.7 sigma (stat)
+    Background-limit: 1.0 sigma (stat)
+uvotsource: UVOT uvw1 magnitude (Vega system)
+              Source: 14.22 +/- 0.02 (stat) +/- 0.03 (sys)
+          Background: 24.64 arcsec^-2
+    Background-limit: 19.39
+   Coincidence-limit: 11.01
+uvotsource: UVOT uvw1 magnitude (AB system)
+              Source: 15.73 +/- 0.02 (stat) +/- 0.03 (sys)
+          Background: 26.15 arcsec^-2
+    Background-limit: 20.90
+   Coincidence-limit: 12.52
+uvotsource: Flux density [erg/s/cm^2/A]
+              Source: 8.17 +/- 0.18 (stat) +/- 0.25 (sys) x 10^-15
+          Background: 5.54 +/- 0.02 (stat) +/- 0.17 (sys) x 10^-19 arcsec^-2
+    Background-limit: 6.99 x 10^-17
+   Coincidence-limit: 1.57 x 10^-13
+uvotsource: Corrected rate [count/s]
+              Source: 19.401 +/- 0.428 (stat)
+          Background: 0.0013 arcsec^-2
+    Background-limit: 0.166
+   Coincidence-limit: 372.234
+uvotsource: Raw rate [count/s]
+              Source: 15.746 +/- 0.317 (stat)
+          Background: 0.0013 arcsec^-2
+    Background-limit: 0.137
+   Coincidence-limit: 90.644
+uvotsource: Flux density [mJy at 1.157 x 10^15 Hz]
+              Source: 1.83 +/- 0.04 (stat) +/- 0.06 (sys) x 10^0
+          Background: 1.24 +/- 0.00 (stat) +/- 0.04 (sys) x 10^-4 arcsec^-2
+    Background-limit: 1.56 x 10^-2
+   Coincidence-limit: 3.51 x 10^1
+uvotsource: shell ftcreate "cdfile=his.1269634.4.cdf" "datafile=his.1269634.5.dat" "outfile=this.1269634.7.fits" "clobber=NO" "history=NO" "inull=0" "tabtyp=BINARY" "morehdr=0" "nrows=0" "nskip=0" "chatter=1"
+uvotsource: --- begin/end ftcreate
+uvotsource: shell fthedit "infile=this.1269634.7.fits+1" "keyword=@head.1269634.6.txt" "chatter=1" "longstring=NO" "protect=YES" "history=NO"
+uvotsource: --- begin/end fthedit
+uvotsource: shell fthedit "infile=this.1269634.7.fits+0" "keyword=@head.1269634.6.txt" "chatter=1" "longstring=NO" "protect=YES" "history=NO"
+uvotsource: --- begin/end fthedit
+uvotsource: complete [time=1728643295, delta=199, elapsed=199]
+uvotsource: Got parameters:
+	image = /mnt/sdb1/Swift/OP313/reproc/00036384074/uvot/image/sw00036384074uw1_sk.img.gz+1
+	srcreg = /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/source.sw00036384074uw1_sk.reg
+	bkgreg = /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/background.sw00036384074uw1_sk.reg
+	sigma = 1
+	apercorr = CURVEOFGROWTH
+	output = ALL
+	expfile = NONE
+	cleanup = yes
+	clobber = yes
+	chatter = 5
+uvotsource: Checking quality of input files
+uvotsource: /mnt/sdb1/Swift/OP313/reproc/00036384074/uvot/image/sw00036384074uw1_sk.img.gz+1: OK
+uvotsource: Reading image keywords
+uvotsource: querying CALDB with
+	CODENAME => COINCIDENCE
+	MISSION => SWIFT
+	INSTRUMENT => UVOTA
+	DETECTOR => 1200
+	FILTER => UVW1
+	STARTDATE => 2024-03-03
+	STARTTIME => 22:03:24
+	STOPDATE => 2024-03-03
+	STOPTIME => 22:03:24
+	EXPRESSION => -
+uvotsource: selected COINCIDENCE https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/uvota/bcf/coinc/swucountcor20010101v103.fits[1]
+uvotsource: querying CALDB with
+	CODENAME => COLORTABLE
+	MISSION => SWIFT
+	INSTRUMENT => UVOTA
+	DETECTOR => 1200
+	FILTER => UVW1
+	STARTDATE => 2024-03-03
+	STARTTIME => 22:03:24
+	STOPDATE => 2024-03-03
+	STOPTIME => 22:03:24
+	EXPRESSION => -
+uvotsource: selected COLORTABLE https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/uvota/bcf/phot/swuphot20041120v108.fits[1]
+uvotsource: AB magnitude system
+uvotsource: 	B       : ZPT=18.98 ZPE=0.02 FCF=1.480E-16 FCE=5.6E-19 WAV=4321
+uvotsource: 	U       : ZPT=19.36 ZPE=0.02 FCF=1.663E-16 FCE=2.5E-18 WAV=3442
+uvotsource: 	V       : ZPT=17.88 ZPE=0.01 FCF=2.611E-16 FCE=8.7E-19 WAV=5410
+uvotsource: 	WHITE   : ZPT=21.09 ZPE=0.04 FCF=5.249E-17 FCE=7.0E-18 WAV=2753
+uvotsource: 	UVW1    : ZPT=18.95 ZPE=0.03 FCF=4.623E-16 FCE=1.4E-17 WAV=2486
+uvotsource: 	UVW2    : ZPT=19.11 ZPE=0.03 FCF=6.225E-16 FCE=1.3E-17 WAV=1991
+uvotsource: 	UVM2    : ZPT=18.54 ZPE=0.03 FCF=8.489E-16 FCE=5.3E-18 WAV=2221
+uvotsource: 	VGRISM  : ZPT=99.99 ZPE=0.0 FCF=0.0 FCE=0.0 WAV=0
+uvotsource: 	UGRISM  : ZPT=99.99 ZPE=0.0 FCF=0.0 FCE=0.0 WAV=0
+uvotsource: Vega magnitude system
+uvotsource: 	B       : ZPT=19.11 ZPE=0.02 FCF=1.471E-16 FCE=5.6E-19 WAV=4329
+uvotsource: 	U       : ZPT=18.34 ZPE=0.02 FCF=1.628E-16 FCE=2.5E-18 WAV=3501
+uvotsource: 	V       : ZPT=17.89 ZPE=0.01 FCF=2.613E-16 FCE=8.7E-19 WAV=5402
+uvotsource: 	WHITE   : ZPT=20.29 ZPE=0.04 FCF=3.677E-17 FCE=4.9E-18 WAV=3470
+uvotsource: 	UVW1    : ZPT=17.44 ZPE=0.03 FCF=4.209E-16 FCE=1.3E-17 WAV=2591
+uvotsource: 	UVW2    : ZPT=17.38 ZPE=0.03 FCF=5.976E-16 FCE=1.3E-17 WAV=2033
+uvotsource: 	UVM2    : ZPT=16.85 ZPE=0.03 FCF=8.446E-16 FCE=5.3E-18 WAV=2229
+uvotsource: 	VGRISM  : ZPT=99.99 ZPE=0.0 FCF=0.0 FCE=0.0 WAV=0
+uvotsource: 	UGRISM  : ZPT=99.99 ZPE=0.0 FCF=0.0 FCE=0.0 WAV=0
+uvotsource: querying CALDB with
+	CODENAME => REEF
+	MISSION => SWIFT
+	INSTRUMENT => UVOTA
+	DETECTOR => 1200
+	FILTER => -
+	STARTDATE => 2024-03-03
+	STARTTIME => 22:03:24
+	STOPDATE => 2024-03-03
+	STOPTIME => 22:03:24
+	EXPRESSION => -
+uvotsource: selected REEF https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/uvota/cpf/psf/swureef20041120v104.fits
+uvotsource: querying CALDB with
+	CODENAME => SKYFLAT
+	MISSION => SWIFT
+	INSTRUMENT => UVOTA
+	DETECTOR => 1200
+	FILTER => UVW1
+	STARTDATE => 2024-03-03
+	STARTTIME => 22:03:24
+	STOPDATE => 2024-03-03
+	STOPTIME => 22:03:24
+	EXPRESSION => -
+uvotsource: selected SKYFLAT https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/uvota/bcf/flats/swulssens20041120v003.fits[4]
+uvotsource: querying CALDB with
+	CODENAME => SENSCORR
+	MISSION => SWIFT
+	INSTRUMENT => UVOTA
+	DETECTOR => 1200
+	FILTER => -
+	STARTDATE => 2024-03-03
+	STARTTIME => 22:03:24
+	STOPDATE => 2024-03-03
+	STOPTIME => 22:03:24
+	EXPRESSION => -
+uvotsource: selected SENSCORR https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/uvota/bcf/senscorr/swusenscorr20041120v007.fits[1]
+uvotsource: /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/source.sw00036384074uw1_sk.reg: looks OK
+uvotsource: /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/background.sw00036384074uw1_sk.reg: looks OK
+uvotsource: verbose: not checking whether regions are in FOV
+not checking whether regions are in FOV
+uvotsource: verbose: no exposure map so only able to validate that regions are inside image
+uvotsource: shell uvotinteg "infile=/mnt/sdb1/Swift/OP313/reproc/00036384074/uvot/image/sw00036384074uw1_sk.img.gz+1[pix 1]" "regfile=/mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/source.sw00036384074uw1_sk.reg,/mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/background.sw00036384074uw1_sk.reg" "operation=FOV" "subpixels=8" "nullarea=no" "sysname=DEFAULT" "chatter=2" "nsigma=3" "control=BASIC" "format=DEFAULT"
+uvotsource: 
+--- begin uvotinteg
+monitor: fov: 1.000 [value]
+monitor: nulls: 0
+monitor: goods: 124665
+monitor: fov: 1.000 [value]
+monitor: nulls: 0
+monitor: goods: 1675514
+--- end uvotinteg
+uvotsource: verbose: /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/source.sw00036384074uw1_sk.reg containment is 1.000
+uvotsource: verbose: /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/background.sw00036384074uw1_sk.reg containment is 1.000
+uvotsource: shell uvotinteg "infile=/mnt/sdb1/Swift/OP313/reproc/00036384074/uvot/image/sw00036384074uw1_sk.img.gz+1" "regfile=tmpsrcreg.1514377.2.reg,tmpbkgreg.1514377.1.reg,std.1514377.3.reg" "operation=AREA,SUM" "subpixels=8" "format=DEFAULT" "control=BASIC" "nsigma=3" "chatter=2" "sysname=DEFAULT" "nullarea=no"
+uvotsource: 
+--- begin uvotinteg
+monitor: area: 1947.891 [pixel]
+monitor: nulls: 0
+monitor: goods: 124665
+monitor: sum: 2683.605 [value]
+monitor: area: 26179.906 [pixel]
+monitor: nulls: 0
+monitor: goods: 1675514
+monitor: sum: 5545.676 [value]
+monitor: area: 78.078 [pixel]
+monitor: nulls: 0
+monitor: goods: 4997
+monitor: sum: 1940.335 [value]
+--- end uvotinteg
+source2 updateFrametimeParameters NFRAMES (HDR) = 13484.8769906057
+source2 updateFrametimeParameters NFRAMES (SRC) = 13484.8769906057
+source2 updateFrametimeParameters NFRAMES (BKG) = 13484.8769906057
+
+Source2 .. deriveRates  exposure src = 146.421491339395
+Source2 .. deriveRates  exposure bkg = 146.421491339395
+Source2 .. deriveRates  exposure hdr = 146.421491339395
+Source2 .. deriveRates  NFRAMES(SRC,BKG) = 13484.8769906057,13484.8769906057 !!! 
+bkg: counts=5545.676 area=26179.906 [pix] exp=146.421491339395 [s]
+src: counts=2683.605 area=1947.891 [pix] exp=146.421491339395 [s]
+b = (bkg_cnts=5545.676) / (bkg_exp_s=146.421491339395 * N_b=26179.906) = 0.001447 [count/s/pix]
+b_sig = (bkg_cnts_err = 74.423) / (bkg_exp_s=146.421491339395 * N_b=26179.906) = 0.000019 [count/s/pix]
+s = (src_cnts=2683.605) / (T_s=src_exp_s=146.421491339395) = 18.327945 [count/s]
+s_sig = (src_cnts_err=46.363) / T_s) = 0.316642 [count/s]
+r = s {18.327945} - b {0.001447} * N_s = 15.509911 [count/s]
+r_sig = sqrt(s_sig {0.316642}**2 + (b_sig {0.000019} * N_s)**2) = 0.318892 [count/s]
+nsigma = 48.64
+uvotsource: keyword CRVAL1 |197.543076667| => |197.543076667|
+uvotsource: keyword CRVAL2 |32.3575172141| => |32.3575172141|
+uvotsource: keyword CRPIX1 |712.5| => |712.5|
+uvotsource: keyword CRPIX2 |456.5| => |456.5|
+uvotsource: keyword CDELT1 |-0.00027888888381462| => |-0.00027888888381462|
+uvotsource: keyword CDELT2 |0.00027888888381462| => |0.00027888888381462|
+uvotsource: keyword CUNIT1 |deg| => |deg|
+uvotsource: keyword CUNIT2 |deg| => |deg|
+uvotsource: keyword CTYPE1 |RA---TAN| => |RA---TAN|
+uvotsource: keyword CTYPE2 |DEC--TAN| => |DEC--TAN|
+uvotsource: keyword CRVAL1D |0.| => |0.|
+uvotsource: keyword CRVAL2D |0.| => |0.|
+uvotsource: keyword CRPIX1D |606.250393508484| => |606.250393508484|
+uvotsource: keyword CRPIX2D |621.24743929127| => |621.24743929127|
+uvotsource: keyword CDELT1D |0.0181499958684615| => |0.0181499958684615|
+uvotsource: keyword CDELT2D |0.0181499958684615| => |0.0181499958684615|
+uvotsource: keyword CUNIT1D |mm| => |mm|
+uvotsource: keyword CUNIT2D |mm| => |mm|
+uvotsource: keyword CTYPE1D |DETX| => |DETX|
+uvotsource: keyword CTYPE2D |DETY| => |DETY|
+uvotsource: keyword PC1_1D |-0.959780917090781| => |-0.959780917090781|
+uvotsource: keyword PC1_2D |0.28075016740646| => |0.28075016740646|
+uvotsource: keyword PC2_1D |-0.280749716634484| => |-0.280749716634484|
+uvotsource: keyword PC2_2D |-0.959780980901105| => |-0.959780980901105|
+uvotsource: verbose: DET 1223.53,1570.47 => RAW 1157.70,1490.55
+uvotsource: Source
+            Position: RA = 13h 10m 28.66s, Dec = +32d 20m 43.3s (J2000)
+            Position: RA = 197.61942, Dec = 32.34536 (J2000)
+            Exposure: 146.42 s (source)
+            Exposure: 146.42 s (background)
+              Filter: UVW1
+        Significance: 48.6 sigma (stat)
+    Background-limit: 1.0 sigma (stat)
+uvotsource: UVOT uvw1 magnitude (Vega system)
+              Source: 14.24 +/- 0.02 (stat) +/- 0.03 (sys)
+          Background: 24.55 arcsec^-2
+    Background-limit: 19.31
+   Coincidence-limit: 11.01
+uvotsource: UVOT uvw1 magnitude (AB system)
+              Source: 15.75 +/- 0.02 (stat) +/- 0.03 (sys)
+          Background: 26.06 arcsec^-2
+    Background-limit: 20.82
+   Coincidence-limit: 12.52
+uvotsource: Flux density [erg/s/cm^2/A]
+              Source: 8.05 +/- 0.18 (stat) +/- 0.25 (sys) x 10^-15
+          Background: 6.04 +/- 0.08 (stat) +/- 0.19 (sys) x 10^-19 arcsec^-2
+    Background-limit: 7.54 x 10^-17
+   Coincidence-limit: 1.57 x 10^-13
+uvotsource: Corrected rate [count/s]
+              Source: 19.137 +/- 0.430 (stat)
+          Background: 0.0014 arcsec^-2
+    Background-limit: 0.179
+   Coincidence-limit: 372.234
+uvotsource: Raw rate [count/s]
+              Source: 15.510 +/- 0.319 (stat)
+          Background: 0.0014 arcsec^-2
+    Background-limit: 0.147
+   Coincidence-limit: 90.644
+uvotsource: Flux density [mJy at 1.157 x 10^15 Hz]
+              Source: 1.80 +/- 0.04 (stat) +/- 0.06 (sys) x 10^0
+          Background: 1.35 +/- 0.02 (stat) +/- 0.04 (sys) x 10^-4 arcsec^-2
+    Background-limit: 1.69 x 10^-2
+   Coincidence-limit: 3.51 x 10^1
+uvotsource: shell ftcreate "cdfile=his.1514377.4.cdf" "datafile=his.1514377.5.dat" "outfile=this.1514377.7.fits" "nrows=0" "inull=0" "clobber=NO" "morehdr=0" "history=NO" "tabtyp=BINARY" "chatter=1" "nskip=0"
+uvotsource: --- begin/end ftcreate
+uvotsource: shell fthedit "infile=this.1514377.7.fits+1" "keyword=@head.1514377.6.txt" "protect=YES" "history=NO" "chatter=1" "longstring=NO"
+uvotsource: --- begin/end fthedit
+uvotsource: shell fthedit "infile=this.1514377.7.fits+0" "keyword=@head.1514377.6.txt" "protect=YES" "history=NO" "longstring=NO" "chatter=1"
+uvotsource: --- begin/end fthedit
+uvotsource: complete [time=1729530442, delta=201, elapsed=201]
+uvotsource: Got parameters:
+	image = /mnt/sdb1/Swift/OP313/reproc/00036384074/uvot/image/sw00036384074uw1_sk.img.gz+1
+	srcreg = /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/source.sw00036384074uw1_sk.reg
+	bkgreg = /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/background.sw00036384074uw1_sk.reg
+	sigma = 1
+	apercorr = CURVEOFGROWTH
+	output = ALL
+	expfile = NONE
+	cleanup = yes
+	clobber = yes
+	chatter = 5
+uvotsource: Checking quality of input files
+uvotsource: /mnt/sdb1/Swift/OP313/reproc/00036384074/uvot/image/sw00036384074uw1_sk.img.gz+1: OK
+uvotsource: Reading image keywords
+uvotsource: querying CALDB with
+	CODENAME => COINCIDENCE
+	MISSION => SWIFT
+	INSTRUMENT => UVOTA
+	DETECTOR => 1200
+	FILTER => UVW1
+	STARTDATE => 2024-03-03
+	STARTTIME => 22:03:24
+	STOPDATE => 2024-03-03
+	STOPTIME => 22:03:24
+	EXPRESSION => -
+uvotsource: selected COINCIDENCE https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/uvota/bcf/coinc/swucountcor20010101v103.fits[1]
+uvotsource: querying CALDB with
+	CODENAME => COLORTABLE
+	MISSION => SWIFT
+	INSTRUMENT => UVOTA
+	DETECTOR => 1200
+	FILTER => UVW1
+	STARTDATE => 2024-03-03
+	STARTTIME => 22:03:24
+	STOPDATE => 2024-03-03
+	STOPTIME => 22:03:24
+	EXPRESSION => -
+uvotsource: selected COLORTABLE https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/uvota/bcf/phot/swuphot20041120v108.fits[1]
+uvotsource: AB magnitude system
+uvotsource: 	B       : ZPT=18.98 ZPE=0.02 FCF=1.480E-16 FCE=5.6E-19 WAV=4321
+uvotsource: 	U       : ZPT=19.36 ZPE=0.02 FCF=1.663E-16 FCE=2.5E-18 WAV=3442
+uvotsource: 	V       : ZPT=17.88 ZPE=0.01 FCF=2.611E-16 FCE=8.7E-19 WAV=5410
+uvotsource: 	WHITE   : ZPT=21.09 ZPE=0.04 FCF=5.249E-17 FCE=7.0E-18 WAV=2753
+uvotsource: 	UVW1    : ZPT=18.95 ZPE=0.03 FCF=4.623E-16 FCE=1.4E-17 WAV=2486
+uvotsource: 	UVW2    : ZPT=19.11 ZPE=0.03 FCF=6.225E-16 FCE=1.3E-17 WAV=1991
+uvotsource: 	UVM2    : ZPT=18.54 ZPE=0.03 FCF=8.489E-16 FCE=5.3E-18 WAV=2221
+uvotsource: 	VGRISM  : ZPT=99.99 ZPE=0.0 FCF=0.0 FCE=0.0 WAV=0
+uvotsource: 	UGRISM  : ZPT=99.99 ZPE=0.0 FCF=0.0 FCE=0.0 WAV=0
+uvotsource: Vega magnitude system
+uvotsource: 	B       : ZPT=19.11 ZPE=0.02 FCF=1.471E-16 FCE=5.6E-19 WAV=4329
+uvotsource: 	U       : ZPT=18.34 ZPE=0.02 FCF=1.628E-16 FCE=2.5E-18 WAV=3501
+uvotsource: 	V       : ZPT=17.89 ZPE=0.01 FCF=2.613E-16 FCE=8.7E-19 WAV=5402
+uvotsource: 	WHITE   : ZPT=20.29 ZPE=0.04 FCF=3.677E-17 FCE=4.9E-18 WAV=3470
+uvotsource: 	UVW1    : ZPT=17.44 ZPE=0.03 FCF=4.209E-16 FCE=1.3E-17 WAV=2591
+uvotsource: 	UVW2    : ZPT=17.38 ZPE=0.03 FCF=5.976E-16 FCE=1.3E-17 WAV=2033
+uvotsource: 	UVM2    : ZPT=16.85 ZPE=0.03 FCF=8.446E-16 FCE=5.3E-18 WAV=2229
+uvotsource: 	VGRISM  : ZPT=99.99 ZPE=0.0 FCF=0.0 FCE=0.0 WAV=0
+uvotsource: 	UGRISM  : ZPT=99.99 ZPE=0.0 FCF=0.0 FCE=0.0 WAV=0
+uvotsource: querying CALDB with
+	CODENAME => REEF
+	MISSION => SWIFT
+	INSTRUMENT => UVOTA
+	DETECTOR => 1200
+	FILTER => -
+	STARTDATE => 2024-03-03
+	STARTTIME => 22:03:24
+	STOPDATE => 2024-03-03
+	STOPTIME => 22:03:24
+	EXPRESSION => -
+uvotsource: selected REEF https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/uvota/cpf/psf/swureef20041120v104.fits
+uvotsource: querying CALDB with
+	CODENAME => SKYFLAT
+	MISSION => SWIFT
+	INSTRUMENT => UVOTA
+	DETECTOR => 1200
+	FILTER => UVW1
+	STARTDATE => 2024-03-03
+	STARTTIME => 22:03:24
+	STOPDATE => 2024-03-03
+	STOPTIME => 22:03:24
+	EXPRESSION => -
+uvotsource: selected SKYFLAT https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/uvota/bcf/flats/swulssens20041120v003.fits[4]
+uvotsource: querying CALDB with
+	CODENAME => SENSCORR
+	MISSION => SWIFT
+	INSTRUMENT => UVOTA
+	DETECTOR => 1200
+	FILTER => -
+	STARTDATE => 2024-03-03
+	STARTTIME => 22:03:24
+	STOPDATE => 2024-03-03
+	STOPTIME => 22:03:24
+	EXPRESSION => -
+uvotsource: selected SENSCORR https://heasarc.gsfc.nasa.gov/FTP/caldb/data/swift/uvota/bcf/senscorr/swusenscorr20041120v007.fits[1]
+uvotsource: /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/source.sw00036384074uw1_sk.reg: looks OK
+uvotsource: /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/background.sw00036384074uw1_sk.reg: looks OK
+uvotsource: verbose: not checking whether regions are in FOV
+not checking whether regions are in FOV
+uvotsource: verbose: no exposure map so only able to validate that regions are inside image
+uvotsource: shell uvotinteg "infile=/mnt/sdb1/Swift/OP313/reproc/00036384074/uvot/image/sw00036384074uw1_sk.img.gz+1[pix 1]" "regfile=/mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/source.sw00036384074uw1_sk.reg,/mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/background.sw00036384074uw1_sk.reg" "operation=FOV" "subpixels=8" "chatter=2" "nullarea=no" "control=BASIC" "nsigma=3" "format=DEFAULT" "sysname=DEFAULT"
+uvotsource: 
+--- begin uvotinteg
+monitor: fov: 1.000 [value]
+monitor: nulls: 0
+monitor: goods: 124665
+monitor: fov: 1.000 [value]
+monitor: nulls: 0
+monitor: goods: 1675514
+--- end uvotinteg
+uvotsource: verbose: /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/source.sw00036384074uw1_sk.reg containment is 1.000
+uvotsource: verbose: /mnt/sdb1/Swift/OP313/reproc/00036384074/uvotproduct/background.sw00036384074uw1_sk.reg containment is 1.000
+uvotsource: shell uvotinteg "infile=/mnt/sdb1/Swift/OP313/reproc/00036384074/uvot/image/sw00036384074uw1_sk.img.gz+1" "regfile=tmpsrcreg.1648858.2.reg,tmpbkgreg.1648858.1.reg,std.1648858.3.reg" "operation=AREA,SUM" "subpixels=8" "chatter=2" "nullarea=no" "control=BASIC" "nsigma=3" "format=DEFAULT" "sysname=DEFAULT"
+uvotsource: 
+--- begin uvotinteg
+monitor: area: 1947.891 [pixel]
+monitor: nulls: 0
+monitor: goods: 124665
+monitor: sum: 2683.605 [value]
+monitor: area: 26179.906 [pixel]
+monitor: nulls: 0
+monitor: goods: 1675514
+monitor: sum: 5545.676 [value]
+monitor: area: 78.078 [pixel]
+monitor: nulls: 0
+monitor: goods: 4997
+monitor: sum: 1940.335 [value]
+--- end uvotinteg
+source2 updateFrametimeParameters NFRAMES (HDR) = 13484.8769906057
+source2 updateFrametimeParameters NFRAMES (SRC) = 13484.8769906057
+source2 updateFrametimeParameters NFRAMES (BKG) = 13484.8769906057
+
+Source2 .. deriveRates  exposure src = 146.421491339395
+Source2 .. deriveRates  exposure bkg = 146.421491339395
+Source2 .. deriveRates  exposure hdr = 146.421491339395
+Source2 .. deriveRates  NFRAMES(SRC,BKG) = 13484.8769906057,13484.8769906057 !!! 
+bkg: counts=5545.676 area=26179.906 [pix] exp=146.421491339395 [s]
+src: counts=2683.605 area=1947.891 [pix] exp=146.421491339395 [s]
+b = (bkg_cnts=5545.676) / (bkg_exp_s=146.421491339395 * N_b=26179.906) = 0.001447 [count/s/pix]
+b_sig = (bkg_cnts_err = 74.423) / (bkg_exp_s=146.421491339395 * N_b=26179.906) = 0.000019 [count/s/pix]
+s = (src_cnts=2683.605) / (T_s=src_exp_s=146.421491339395) = 18.327945 [count/s]
+s_sig = (src_cnts_err=46.363) / T_s) = 0.316642 [count/s]
+r = s {18.327945} - b {0.001447} * N_s = 15.509911 [count/s]
+r_sig = sqrt(s_sig {0.316642}**2 + (b_sig {0.000019} * N_s)**2) = 0.318892 [count/s]
+nsigma = 48.64
+uvotsource: keyword CRVAL1 |197.543076667| => |197.543076667|
+uvotsource: keyword CRVAL2 |32.3575172141| => |32.3575172141|
+uvotsource: keyword CRPIX1 |712.5| => |712.5|
+uvotsource: keyword CRPIX2 |456.5| => |456.5|
+uvotsource: keyword CDELT1 |-0.00027888888381462| => |-0.00027888888381462|
+uvotsource: keyword CDELT2 |0.00027888888381462| => |0.00027888888381462|
+uvotsource: keyword CUNIT1 |deg| => |deg|
+uvotsource: keyword CUNIT2 |deg| => |deg|
+uvotsource: keyword CTYPE1 |RA---TAN| => |RA---TAN|
+uvotsource: keyword CTYPE2 |DEC--TAN| => |DEC--TAN|
+uvotsource: keyword CRVAL1D |0.| => |0.|
+uvotsource: keyword CRVAL2D |0.| => |0.|
+uvotsource: keyword CRPIX1D |606.250393508484| => |606.250393508484|
+uvotsource: keyword CRPIX2D |621.24743929127| => |621.24743929127|
+uvotsource: keyword CDELT1D |0.0181499958684615| => |0.0181499958684615|
+uvotsource: keyword CDELT2D |0.0181499958684615| => |0.0181499958684615|
+uvotsource: keyword CUNIT1D |mm| => |mm|
+uvotsource: keyword CUNIT2D |mm| => |mm|
+uvotsource: keyword CTYPE1D |DETX| => |DETX|
+uvotsource: keyword CTYPE2D |DETY| => |DETY|
+uvotsource: keyword PC1_1D |-0.959780917090781| => |-0.959780917090781|
+uvotsource: keyword PC1_2D |0.28075016740646| => |0.28075016740646|
+uvotsource: keyword PC2_1D |-0.280749716634484| => |-0.280749716634484|
+uvotsource: keyword PC2_2D |-0.959780980901105| => |-0.959780980901105|
+uvotsource: verbose: DET 1223.53,1570.47 => RAW 1157.70,1490.55
+uvotsource: Source
+            Position: RA = 13h 10m 28.66s, Dec = +32d 20m 43.3s (J2000)
+            Position: RA = 197.61942, Dec = 32.34536 (J2000)
+            Exposure: 146.42 s (source)
+            Exposure: 146.42 s (background)
+              Filter: UVW1
+        Significance: 48.6 sigma (stat)
+    Background-limit: 1.0 sigma (stat)
+uvotsource: UVOT uvw1 magnitude (Vega system)
+              Source: 14.24 +/- 0.02 (stat) +/- 0.03 (sys)
+          Background: 24.55 arcsec^-2
+    Background-limit: 19.31
+   Coincidence-limit: 11.01
+uvotsource: UVOT uvw1 magnitude (AB system)
+              Source: 15.75 +/- 0.02 (stat) +/- 0.03 (sys)
+          Background: 26.06 arcsec^-2
+    Background-limit: 20.82
+   Coincidence-limit: 12.52
+uvotsource: Flux density [erg/s/cm^2/A]
+              Source: 8.05 +/- 0.18 (stat) +/- 0.25 (sys) x 10^-15
+          Background: 6.04 +/- 0.08 (stat) +/- 0.19 (sys) x 10^-19 arcsec^-2
+    Background-limit: 7.54 x 10^-17
+   Coincidence-limit: 1.57 x 10^-13
+uvotsource: Corrected rate [count/s]
+              Source: 19.137 +/- 0.430 (stat)
+          Background: 0.0014 arcsec^-2
+    Background-limit: 0.179
+   Coincidence-limit: 372.234
+uvotsource: Raw rate [count/s]
+              Source: 15.510 +/- 0.319 (stat)
+          Background: 0.0014 arcsec^-2
+    Background-limit: 0.147
+   Coincidence-limit: 90.644
+uvotsource: Flux density [mJy at 1.157 x 10^15 Hz]
+              Source: 1.80 +/- 0.04 (stat) +/- 0.06 (sys) x 10^0
+          Background: 1.35 +/- 0.02 (stat) +/- 0.04 (sys) x 10^-4 arcsec^-2
+    Background-limit: 1.69 x 10^-2
+   Coincidence-limit: 3.51 x 10^1
+uvotsource: shell ftcreate "cdfile=his.1648858.4.cdf" "datafile=his.1648858.5.dat" "outfile=this.1648858.7.fits" "clobber=NO" "inull=0" "morehdr=0" "nskip=0" "chatter=1" "nrows=0" "history=NO" "tabtyp=BINARY"
+uvotsource: --- begin/end ftcreate
+uvotsource: shell fthedit "infile=this.1648858.7.fits+1" "keyword=@head.1648858.6.txt" "protect=YES" "longstring=NO" "history=NO" "chatter=1"
+uvotsource: --- begin/end fthedit
+uvotsource: shell fthedit "infile=this.1648858.7.fits+0" "keyword=@head.1648858.6.txt" "history=NO" "chatter=1" "protect=YES" "longstring=NO"
+uvotsource: --- begin/end fthedit
+uvotsource: shell ftmerge "infile=oldhis.1648858.8.fits,this.1648858.7.fits" "outfile=tmphis.1648858.9.fits" "copyall=YES" "clobber=NO" "skipbadfiles=NO" "columns=*" "insertrow=0" "chatter=1" "history=NO"
+uvotsource: error: error running ftmerge [code=1, os=0]
+uvotsource: warning: --- begin/end ftmerge
+uvotsource: complete [time=1729606093, delta=199, elapsed=199]
