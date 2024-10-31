@@ -1,5 +1,6 @@
 channels:
 - defaults
+- conda-forge
 dependencies:
 - astropy=0.6.1
 - astroquery=0.4.7
