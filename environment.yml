@@ -1,10 +1,11 @@
+name: gammapy_mwl
 channels:
 - defaults
 - conda-forge
 dependencies:
-- astropy=0.6.1
+- astropy=6.1
 - astroquery=0.4.7
-- gammapy=1.3.dev726+g6c6d15956
+# - gammapy=1.3.dev726+g6c6d15956
 - matplotlib=3.8.3
 - numpy=1.26.4
 - photutils=1.8.0
@@ -14,5 +15,5 @@ dependencies:
 - regions=0.9
 - requests=2.31.0
 - scipy=1.12.0
-- sherpa=4.16.0
-name: gammapy_mwl
+- pip:
+    - sherpa=4.16.0
