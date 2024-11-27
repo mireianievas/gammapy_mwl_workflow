@@ -1,0 +1,27 @@
+name: Run Jupyter Notebooks
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  run-notebooks:
+    name: Run notebooks
+    runs-on: "ubuntu-latest"
+    defaults:
+      run:
+        shell: bash -el {0}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: mamba-org/setup-micromamba@v2
+        with:
+          environment-file: environment.yml
+          cache-environment: true
+          post-cleanup: 'all'
+      - run: |
+          chmod +x run_all_notebooks.sh
+          ./run_all_notebooks.sh .
