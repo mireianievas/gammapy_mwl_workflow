@@ -17,3 +17,4 @@ dependencies:
 - requests=2.31.0
 - scipy=1.12.0
 - sherpa=4.16.0
+- jupyterlab=3.6.5
